@@ -1,0 +1,59 @@
+NAME="biber"
+VERSION=1.5
+RELEASE=1
+CATEGORY="Text"
+SUMMARY="BibTeX replacement for users of BibLaTeX"
+DESCRIPTION="Biber is a BibTeX replacement for users of BibLaTeX.  Biber supports
+full UTF-8, can (re-)encode input and output, supports highly
+configurable sorting, dynamic bibliography sets, and many other
+features."
+HOMEPAGE="http://biblatex-biber.sourceforge.net/"
+
+GIT_URI="git://github.com/plk/biber.git"
+# remove the 'v' for 1.6
+GIT_TAG=v${VERSION}
+inherit git perl
+
+DEPEND="
+perl-Business-ISBN
+perl-Business-ISMN
+perl-Business-ISSN
+perl-Config-AutoConf
+perl-Data-Compare
+perl-Data-Diver
+perl-Data-Dump
+perl-Date-Simple
+perl-ExtUtils-LibBuilder
+perl-File-Slurp-Unicode
+perl-IPC-Run3
+perl-LWP-Protocol-https
+perl-List-AllUtils
+perl-List-MoreUtils
+perl-Log-Log4perl
+perl-Mozilla-CA
+perl-Readonly-XS
+perl-Regexp-Common
+perl-Text-BibTeX
+perl-XML-LibXML-Simple
+perl-XML-LibXSLT
+"
+
+# For perl-5.14, also need perl-Unicode-Collate, because the
+# Unicode::Collate included in perl-5.14 is too old.
+
+DEPEND+=" perl-Unicode-Collate"
+
+# The following will be needed for biber-1.6, so I might as well add
+# them now, while I'm thinking about it.
+
+DEPEND+="
+perl-Encode-EUCJPASCII
+perl-Encode-HanExtra
+perl-Encode-JIS2K
+perl-IO-HTML
+perl-Unicode-GCString
+perl-URI
+perl-LWP
+"
+
+REQUIRES="texlive-collection-bibtexextra"
