@@ -1,5 +1,5 @@
 NAME="biber"
-VERSION=1.5
+VERSION=1.8
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
@@ -20,40 +20,31 @@ perl-Business-ISMN
 perl-Business-ISSN
 perl-Config-AutoConf
 perl-Data-Compare
-perl-Data-Diver
 perl-Data-Dump
 perl-Date-Simple
+perl-Encode-EUCJPASCII
+perl-Encode-HanExtra
+perl-Encode-JIS2K
 perl-ExtUtils-LibBuilder
-perl-File-Slurp-Unicode
+perl-File-Slurp
+perl-IPC-Cmd
 perl-IPC-Run3
 perl-LWP-Protocol-https
 perl-List-AllUtils
 perl-List-MoreUtils
 perl-Log-Log4perl
+perl-Module-Build
 perl-Mozilla-CA
 perl-Readonly-XS
 perl-Regexp-Common
 perl-Text-BibTeX
+perl-URI
+perl-Unicode-Collate
+perl-Unicode-GCString
 perl-XML-LibXML-Simple
 perl-XML-LibXSLT
-"
-
-# For perl-5.14, also need perl-Unicode-Collate, because the
-# Unicode::Collate included in perl-5.14 is too old.
-
-DEPEND+=" perl-Unicode-Collate"
-
-# The following will be needed for biber-1.6, so I might as well add
-# them now, while I'm thinking about it.
-
-DEPEND+="
-perl-Encode-EUCJPASCII
-perl-Encode-HanExtra
-perl-Encode-JIS2K
-perl-IO-HTML
-perl-Unicode-GCString
-perl-URI
-perl-LWP
+perl-XML-Writer
+perl-autovivification
 "
 
 REQUIRES="texlive-collection-bibtexextra"
