@@ -1,5 +1,5 @@
 NAME="biber"
-VERSION=1.8
+VERSION=2.1
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
@@ -13,6 +13,8 @@ GIT_URI="git://github.com/plk/biber.git"
 # remove the 'v' for 1.6
 GIT_TAG=v${VERSION}
 inherit git perl
+
+PATCH_URI="update_for_5_22.patch"
 
 DEPEND="
 perl-Business-ISBN
@@ -35,16 +37,24 @@ perl-List-MoreUtils
 perl-Log-Log4perl
 perl-Module-Build
 perl-Mozilla-CA
-perl-Readonly-XS
 perl-Regexp-Common
+perl-Test-Differences
+perl-Test-Pod
+perl-Test-Pod-Coverage
 perl-Text-BibTeX
+perl-Text-Roman
 perl-URI
 perl-Unicode-Collate
-perl-Unicode-GCString
+perl-Unicode-LineBreak
+perl-Unicode-Normalize
 perl-XML-LibXML-Simple
 perl-XML-LibXSLT
 perl-XML-Writer
 perl-autovivification
 "
 
+# perl-Test-More
+# perl-File-Which
+
 REQUIRES="texlive-collection-bibtexextra"
+ARCH=noarch

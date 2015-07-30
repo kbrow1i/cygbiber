@@ -1,0 +1,10 @@
+The following package has been updated in the Cygwin distribution:
+
+* biber-2.1-1
+
+Biber is a BibTeX replacement for users of BibLaTeX, with full Unicode support.
+
+This is an update to the latest upstream release.  It is the first release of biber as a standalone package on 32-bit Cygwin.  The main executable is /usr/bin/biber, which is a Perl script; in the 32-bit case it replaces /usr/bin/biber.exe, which used to be provided by the texlive-collection-bibtexextra package.
+
+Ken Brown
+Cygwin's Biber maintainer
