@@ -1,5 +1,5 @@
 NAME="biber"
-VERSION=2.1
+VERSION=2.2
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
@@ -11,10 +11,9 @@ HOMEPAGE="http://biblatex-biber.sourceforge.net/"
 
 GIT_URI="git://github.com/plk/biber.git"
 # remove the 'v' for 1.6
-GIT_TAG=v${VERSION}
+# GIT_TAG=v${VERSION}
+GIT_REV=7998b16
 inherit git perl
-
-PATCH_URI="update_for_5_22.patch"
 
 DEPEND="
 perl-Business-ISBN
