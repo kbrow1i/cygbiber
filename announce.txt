@@ -1,19 +1,10 @@
-From cygwin-announce-biber-2.3-1 Thu Dec 31 14:04:00 2015
-From: Ken Brown <kbrown@cornell.edu>
-To: cygwin-announce@cygwin.com
-Date: Thu, 31 Dec 2015 14:04:00 -0500
-Subject: biber 2.3-1
-
 The following package has been uploaded to the Cygwin distribution:
 
-* biber-2.3-1
+* biber-2.4-1
 
-Biber is a BibTeX replacement for users of BibLaTeX.  Biber supports
-full UTF-8, can (re-)encode input and output, supports highly
-configurable sorting, dynamic bibliography sets, and many other
-features.
+Biber is a BibTeX replacement for users of BibLaTeX.  Biber supports full UTF-8, can (re-)encode input and output, supports highly configurable sorting, dynamic bibliography sets, and many other features.
 
-This is an update to the latest upstream release.
+This is an update to the latest upstream release.  See /usr/share/doc/biber/CHANGES for a list of changes.
 
 Ken Brown
 Cygwin's Biber maintainer

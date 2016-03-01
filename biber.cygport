@@ -1,5 +1,5 @@
 NAME="biber"
-VERSION=2.3
+VERSION=2.4
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
@@ -12,48 +12,47 @@ HOMEPAGE="http://biblatex-biber.sourceforge.net/"
 GIT_URI="git://github.com/plk/biber.git"
 # remove the 'v' for 1.6
 GIT_TAG=v${VERSION}
-# GIT_REV=7998b16
 inherit git perl
 
 DEPEND="
-perl-Business-ISBN
-perl-Business-ISMN
-perl-Business-ISSN
+perl-Test-Simple
+perl-Test-Differences
+perl-File-Which
 perl-Config-AutoConf
+perl-ExtUtils-LibBuilder
+perl-autovivification
+perl-Class-Accessor
 perl-Data-Compare
 perl-Data-Dump
+perl-Data-Uniqid
 perl-Date-Simple
-perl-Encode-EUCJPASCII
-perl-Encode-HanExtra
-perl-Encode-JIS2K
-perl-ExtUtils-LibBuilder
 perl-File-Slurp
 perl-IPC-Cmd
 perl-IPC-Run3
-perl-LWP-Protocol-https
 perl-List-AllUtils
 perl-List-MoreUtils
-perl-Log-Log4perl
 perl-Module-Build
 perl-Mozilla-CA
 perl-Regexp-Common
-perl-Test-Differences
-perl-Test-Pod
-perl-Test-Pod-Coverage
-perl-Text-BibTeX
-perl-Text-Roman
-perl-URI
+perl-Log-Log4perl
 perl-Unicode-Collate
-perl-Unicode-LineBreak
 perl-Unicode-Normalize
+perl-Unicode-LineBreak
+perl-Encode-EUCJPASCII
+perl-Encode-HanExtra
+perl-Encode-JIS2K
 perl-XML-LibXML-Simple
 perl-XML-LibXSLT
 perl-XML-Writer
-perl-autovivification
+perl-Text-Roman
+perl-URI
+perl-Text-BibTeX
+perl-libwww-perl
+perl-LWP-Protocol-https
+perl-Business-ISBN
+perl-Business-ISSN
+perl-Business-ISMN
 "
 
-# perl-Test-More
-# perl-File-Which
-
-REQUIRES="texlive-collection-bibtexextra"
+REQUIRES="texlive-collection-bibtexextra perl-autovivification"
 ARCH=noarch
