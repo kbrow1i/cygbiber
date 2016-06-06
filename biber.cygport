@@ -1,5 +1,5 @@
 NAME="biber"
-VERSION=2.4
+VERSION=2.5
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
@@ -52,6 +52,7 @@ perl-LWP-Protocol-https
 perl-Business-ISBN
 perl-Business-ISSN
 perl-Business-ISMN
+perl-Lingua-Translit
 "
 
 REQUIRES="texlive-collection-bibtexextra perl-autovivification"
