@@ -1,10 +1,65 @@
 The following package has been uploaded to the Cygwin distribution:
 
-* biber-2.5-1
+* biber-2.7-1
 
-Biber is a BibTeX replacement for users of BibLaTeX.  Biber supports full UTF-8, can (re-)encode input and output, supports highly configurable sorting, dynamic bibliography sets, and many other features.
+Biber is a BibTeX replacement for users of BibLaTeX.  Biber supports
+full UTF-8, can (re-)encode input and output, supports highly
+configurable sorting, dynamic bibliography sets, and many other
+features.
 
-This is an update to the latest upstream release.  See /usr/share/doc/biber/CHANGES for a list of changes.
+This is an update to the latest upstream release.  It is marked as a
+test release because it requires at least perl-5.24, which is
+currently only available in Cygwin as a test release.
+
+In addition, you will have to install the biber prerequisite
+modules[1] using cpan, since these are not yet available for perl-5.24
+in the Cygwin distribution.
+
+Finally, biber-2.7 is designed to work with biblatex-3.7.  This will
+be available shortly in a test release of
+texlive-collection-bibtexextra.
 
 Ken Brown
 Cygwin's Biber maintainer
+
+[1] Biber prerequisites:
+
+autovivification
+Class::Accessor
+Data::Dump
+Data::Compare
+Data::Uniqid
+DateTime::Format::Builder
+DateTime::Calendar::Julian
+File::Slurp
+IPC::Cmd
+IPC::Run3
+List::AllUtils
+List::MoreUtils
+List::MoreUtils::XS
+Mozilla::CA
+Regexp::Common
+Log::Log4perl
+Unicode::Collate
+Unicode::Normalize
+Unicode::LineBreak
+Unicode::GCString
+Encode::EUCJPASCII
+Encode::JIS2K
+Encode::HanExtra
+XML::LibXML
+XML::LibXML::Simple
+XML::LibXSLT
+XML::Writer
+Sort::Key
+Text::CSV
+Text::CSV_XS
+Text::Roman
+URI
+Text::BibTeX
+LWP::Simple
+LWP::Protocol::https
+Business::ISBN
+Business::ISSN
+Business::ISMN
+Lingua::Translit
