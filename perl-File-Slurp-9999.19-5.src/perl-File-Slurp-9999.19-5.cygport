@@ -1,0 +1,13 @@
+NAME="perl-File-Slurp"
+VERSION="9999.19"
+RELEASE="5"
+CPAN_AUTHOR="URI"
+DESCRIPTION="Perl distribution File-Slurp, providing Perl modules:
+File::Slurp FileSlurp_12.
+
+Simple and Efficient Reading/Writing/Modifying of Complete Files."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

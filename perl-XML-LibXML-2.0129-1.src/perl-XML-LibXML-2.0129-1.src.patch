@@ -1,0 +1,11 @@
+--- origsrc/XML-LibXML-2.0129/t/11memory.t	2016-07-14 06:17:08.000000000 +0200
++++ src/XML-LibXML-2.0129/t/11memory.t	2017-04-01 15:49:54.913481200 +0200
+@@ -504,7 +504,7 @@ sub check_mem {
+         }
+         close ($FH);
+ 
+-        if ($LibXML::TOTALMEM != $mem{Total}) {
++        if ($initialise or $LibXML::TOTALMEM != $mem{Total}) {
+             warn("LEAK! : ", $mem{Total} - $LibXML::TOTALMEM, " $units\n") unless $initialise;
+             $LibXML::TOTALMEM = $mem{Total};
+         }

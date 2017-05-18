@@ -1,0 +1,13 @@
+NAME="perl-Data-Uniqid"
+VERSION="0.12"
+RELEASE="1"
+CPAN_AUTHOR="MWX"
+DESCRIPTION="Perl distribution Data-Uniqid, providing Perl modules:
+Data::Uniqid.
+
+Perl extension for simple genrating of unique id's."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

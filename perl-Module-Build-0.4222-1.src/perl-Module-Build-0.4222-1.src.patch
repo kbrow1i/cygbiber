@@ -1,0 +1,11 @@
+--- origsrc/Module-Build-0.4222/lib/Module/Build/Base.pm	2017-03-30 15:43:03.000000000 +0200
++++ src/Module-Build-0.4222/lib/Module/Build/Base.pm	2017-04-08 11:02:43.968194300 +0200
+@@ -3336,7 +3336,7 @@ sub htmlify_pods {
+   unless (defined $self->args('html_links') and !$self->args('html_links')) {
+     my @podpath = ( (map { File::Spec->abs2rel($_ ,$podroot) } grep { -d  }
+                      ( $self->install_sets('core', 'lib'), # lib
+-                       $self->install_sets('core', 'bin'), # bin
++#                       $self->install_sets('core', 'bin'), # bin
+                        $self->install_sets('site', 'lib'), # site/lib
+                      ) ), File::Spec->rel2abs($self->blib) );
+ 

@@ -1,0 +1,25 @@
+_ml="Exporter::Tiny List::MoreUtils::XS"
+inform " Build of perl-List-MoreUtils requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-List-MoreUtils"
+VERSION="0.419"
+RELEASE="1"
+CPAN_AUTHOR="REHSACK"
+DESCRIPTION="Perl distribution List-MoreUtils, providing Perl modules:
+List::MoreUtils List::MoreUtils::PP.
+
+Provide the stuff missing in List::Util."
+
+OBSOLETES="perl-List-MoreUtils-debuginfo"
+#ARCH=noarch # (not yet, wait one more release due to calm not handling this switch well)
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Exporter-Tiny perl-List-MoreUtils-XS"
+inherit perl

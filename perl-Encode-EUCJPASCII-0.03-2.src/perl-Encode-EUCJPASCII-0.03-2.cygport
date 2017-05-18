@@ -1,0 +1,13 @@
+NAME="perl-Encode-EUCJPASCII"
+VERSION="0.03"
+RELEASE="2"
+CPAN_AUTHOR="NEZUMI"
+DESCRIPTION="Perl distribution Encode-EUCJPASCII, providing Perl modules:
+Encode::EUCJPASCII.
+
+EucJP-ascii - An eucJP-open mapping."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

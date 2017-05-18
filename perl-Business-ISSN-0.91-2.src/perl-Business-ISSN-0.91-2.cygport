@@ -1,0 +1,13 @@
+NAME="perl-Business-ISSN"
+VERSION="0.91"
+RELEASE="2"
+CPAN_AUTHOR="BDFOY"
+DESCRIPTION="Perl distribution Business-ISSN, providing Perl modules:
+Business::ISSN.
+
+Work with International Standard Serial Numbers."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

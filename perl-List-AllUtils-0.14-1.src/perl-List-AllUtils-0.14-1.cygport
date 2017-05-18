@@ -1,0 +1,25 @@
+_ml="List::SomeUtils List::Util List::UtilsBy"
+inform " Build of perl-List-AllUtils requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-List-AllUtils"
+VERSION="0.14"
+RELEASE="1"
+CPAN_AUTHOR="DROLSKY"
+DESCRIPTION="Perl distribution List-AllUtils, providing Perl modules:
+List::AllUtils.
+
+Combines List::Util, List::SomeUtils and List::UtilsBy in one bite-sized
+package."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-List-SomeUtils perl-List-UtilsBy perl-Scalar-List-Utils"
+inherit perl
