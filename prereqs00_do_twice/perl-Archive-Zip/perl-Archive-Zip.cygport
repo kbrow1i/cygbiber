@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Archive-Zip"
 VERSION="1.59"
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="PHRED"
 DESCRIPTION="Perl distribution Archive-Zip, providing Perl modules:
 Archive::Zip Archive::Zip::Archive Archive::Zip::BufferedFileHandle

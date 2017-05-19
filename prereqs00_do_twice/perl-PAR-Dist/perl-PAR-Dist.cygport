@@ -9,7 +9,7 @@ if ! check_perl_module $_ml; then
 fi
 NAME="perl-PAR-Dist"
 VERSION="0.49"
-RELEASE="3"
+RELEASE="4"
 CPAN_AUTHOR="RSCHUPP"
 DESCRIPTION="Perl distribution PAR-Dist, providing Perl modules:
 PAR::Dist.

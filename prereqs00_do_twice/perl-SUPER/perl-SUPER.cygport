@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-SUPER"
 VERSION="1.20141117"
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="CHROMATIC"
 DESCRIPTION="Perl distribution SUPER, providing Perl modules:
 SUPER.

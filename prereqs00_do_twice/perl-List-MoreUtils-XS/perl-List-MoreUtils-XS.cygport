@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-List-MoreUtils-XS"
 VERSION="0.418"
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="REHSACK"
 DESCRIPTION="Perl distribution List-MoreUtils-XS, providing Perl modules:
 List::MoreUtils::XS.

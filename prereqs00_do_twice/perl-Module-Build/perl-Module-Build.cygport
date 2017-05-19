@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Module-Build"
 VERSION="0.4222"
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="LEONT"
 DESCRIPTION="Perl distribution Module-Build, providing Perl modules:
 Module::Build Module::Build::Base Module::Build::Compat
@@ -30,3 +30,4 @@ DIFF_EXCLUDES="MYMETA.*"
 NO_PERL_DEPS=1
 REQUIRES="perl-PAR-Dist perl-inc-latest"
 inherit perl
+PATCH_URI="achim.patch"

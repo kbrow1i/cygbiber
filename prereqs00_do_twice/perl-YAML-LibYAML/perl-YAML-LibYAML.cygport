@@ -1,6 +1,6 @@
 NAME="perl-YAML-LibYAML"
 VERSION="0.64"
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="TINITA"
 DESCRIPTION="Perl distribution YAML-LibYAML, providing Perl modules:
 YAML::LibYAML YAML::XS YAML::XS::LibYAML.
