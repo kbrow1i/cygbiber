@@ -1,0 +1,13 @@
+NAME="perl-Sub-Identify"
+VERSION="0.14"
+RELEASE="1"
+CPAN_AUTHOR="RGARCIA"
+DESCRIPTION="Perl distribution Sub-Identify, providing Perl modules:
+Sub::Identify.
+
+Retrieve names of code references."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

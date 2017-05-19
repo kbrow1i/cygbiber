@@ -1,0 +1,14 @@
+NAME="perl-Exporter-Tiny"
+VERSION="0.044"
+RELEASE="1"
+CPAN_AUTHOR="TOBYINK"
+DESCRIPTION="Perl distribution Exporter-Tiny, providing Perl modules:
+Exporter::Shiny Exporter::Tiny.
+
+An exporter with the features of Sub::Exporter but only core dependencies."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

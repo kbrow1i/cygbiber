@@ -1,0 +1,159 @@
+https://cygwin.com/ml/cygwin/2017-05/msg00310.html
+
+I hope I've gleaned all the dependencies of biber correctly, so this
+should be your dependency tree for perl-5.24.1 (the first few have a
+cycle somewhere in their dependencies, so you need to build them, then
+start from the top again, they're the ones that are indented "too far"):
+
+                               perl-Archive-Zip
+                               perl-YAML-LibYAML
+                              perl-Module-Build
+                              perl-PAR-Dist
+                              perl-SUPER
+                              perl-Sub-Identify
+                              perl-inc-latest
+                             perl-Test-MockModule
+                          perl-List-MoreUtils
+                         perl-Exporter-Tiny
+                         perl-List-MoreUtils-XS
+         perl-ExtUtils-Config
+         perl-Try-Tiny
+        perl-ExtUtils-Helpers
+        perl-ExtUtils-InstallPaths
+        perl-Importer
+        perl-Module-Runtime
+        perl-Test-Fatal
+        perl-Test-Requires
+        perl-Test-Simple
+       perl-Dist-CheckConflicts
+       perl-Module-Build-Tiny
+       perl-Module-Implementation
+       perl-Package-Stash-XS
+       perl-Sub-Exporter-Progressive
+       perl-Sub-Info
+       perl-Term-Table
+       perl-Variable-Magic
+      perl-B-Hooks-EndOfScope
+      perl-Class-Data-Inheritable
+      perl-Class-Inspector
+      perl-Devel-StackTrace
+      perl-Eval-Closure
+      perl-File-ShareDir-Install
+      perl-IPC-Run3
+      perl-MRO-Compat
+      perl-Package-Stash
+      perl-Role-Tiny
+      perl-Test-Needs
+      perl-Test2-Suite
+     perl-Class-Tiny
+     perl-Class-XSAccessor
+     perl-Exception-Class
+     perl-File-Copy-Recursive
+     perl-File-ShareDir
+     perl-Path-Tiny
+     perl-Scope-Guard
+     perl-Specio
+     perl-Sub-Uplevel
+     perl-Test-Deep
+     perl-Test-Without-Module
+     perl-Test2-Plugin-NoWarnings
+     perl-namespace-clean
+    perl-CPAN-Meta-Check
+    perl-Class-Singleton
+    perl-Encode-Locale
+    perl-File-Find-Object
+    perl-HTTP-Date
+    perl-IO-HTML
+    perl-Inline-Files
+    perl-LWP-MediaTypes
+    perl-Number-Compare
+    perl-Params-ValidationCompiler
+    perl-Parse-RecDescent
+    perl-Scalar-List-Utils
+    perl-Test-File-ShareDir
+    perl-Test-Warn
+    perl-Test-Warnings
+    perl-Text-Glob
+    perl-URI
+    perl-namespace-autoclean
+   perl-DateTime-Locale
+   perl-DateTime-TimeZone
+   perl-Encode-ISO2022
+   perl-File-Find-Object-Rule
+   perl-HTML-Tagset
+   perl-HTTP-Message
+   perl-Inline
+   perl-Params-Util
+   perl-Sub-Install
+   perl-Sub-Name
+   perl-Test-Exception
+   perl-Test-NoWarnings
+   perl-XML-NamespaceSupport
+   perl-XML-SAX-Base
+  perl-Algorithm-Diff
+  perl-Capture-Tiny
+  perl-DateTime
+  perl-Encode-EUCJPASCII
+  perl-Encode-HanExtra
+  perl-Encode-JISX0213
+  perl-File-Listing
+  perl-HTML-Parser
+  perl-HTTP-Cookies
+  perl-HTTP-Daemon
+  perl-HTTP-Negotiate
+  perl-Net-HTTP
+  perl-Net-SSLeay
+  perl-POD2-Base
+  perl-Package-DeprecationManager
+  perl-Readonly
+  perl-Test-LeakTrace
+  perl-Test-RequiresInternet
+  perl-Test-TrailingSpace
+  perl-WWW-RobotRules
+  perl-XML-SAX
+ perl-Business-ISBN-Data
+ perl-CPAN-Changes
+ perl-Class-Factory-Util
+ perl-Config-AutoConf
+ perl-DateTime-Format-Strptime
+ perl-ExtUtils-LibBuilder
+ perl-File-Find-Rule
+ perl-File-Slurp-Tiny
+ perl-IO-Socket-SSL
+ perl-List-SomeUtils
+ perl-List-UtilsBy
+ perl-MIME-Charset
+ perl-Mozilla-CA
+ perl-Params-Validate
+ perl-Text-Diff
+ perl-Tie-Cycle
+ perl-XML-LibXML
+ perl-libwww-perl
+perl-Business-ISBN
+perl-Business-ISMN
+perl-Business-ISSN
+perl-Class-Accessor
+perl-Data-Compare
+perl-Data-Dump
+perl-Data-Uniqid
+perl-DateTime-Calendar-Julian
+perl-DateTime-Format-Builder
+perl-Encode-JIS2K
+perl-File-Slurp
+perl-File-Which
+perl-LWP-Protocol-https
+perl-Lingua-Translit
+perl-List-AllUtils
+perl-Log-Log4perl
+perl-Regexp-Common
+perl-Sort-Key
+perl-Test-Differences
+perl-Text-BibTeX
+perl-Text-CSV
+perl-Text-Roman
+perl-Unicode-Collate
+perl-Unicode-LineBreak
+perl-XML-LibXML-Simple
+perl-XML-LibXSLT
+perl-XML-Writer
+perl-autovivification

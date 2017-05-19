@@ -1,0 +1,27 @@
+_ml="Test::MockModule"
+inform " Build of perl-Archive-Zip requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Archive-Zip"
+VERSION="1.59"
+RELEASE="1"
+CPAN_AUTHOR="PHRED"
+DESCRIPTION="Perl distribution Archive-Zip, providing Perl modules:
+Archive::Zip Archive::Zip::Archive Archive::Zip::BufferedFileHandle
+Archive::Zip::DirectoryMember Archive::Zip::FileMember Archive::Zip::Member
+Archive::Zip::MemberRead Archive::Zip::MockFileHandle
+Archive::Zip::NewFileMember Archive::Zip::StringMember Archive::Zip::Tree
+Archive::Zip::ZipFileMember.
+
+Provide an interface to ZIP archive files."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

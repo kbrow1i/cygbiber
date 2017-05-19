@@ -1,0 +1,13 @@
+NAME="perl-YAML-LibYAML"
+VERSION="0.64"
+RELEASE="1"
+CPAN_AUTHOR="TINITA"
+DESCRIPTION="Perl distribution YAML-LibYAML, providing Perl modules:
+YAML::LibYAML YAML::XS YAML::XS::LibYAML.
+
+Perl YAML Serialization using XS and libyaml."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

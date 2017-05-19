@@ -1,0 +1,22 @@
+_ml="Archive::Zip YAML::XS"
+inform " Build of perl-PAR-Dist requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-PAR-Dist"
+VERSION="0.49"
+RELEASE="3"
+CPAN_AUTHOR="RSCHUPP"
+DESCRIPTION="Perl distribution PAR-Dist, providing Perl modules:
+PAR::Dist.
+
+Create and manipulate PAR distributions."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

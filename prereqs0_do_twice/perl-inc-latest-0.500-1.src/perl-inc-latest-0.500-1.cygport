@@ -1,0 +1,13 @@
+NAME="perl-inc-latest"
+VERSION="0.500"
+RELEASE="1"
+CPAN_AUTHOR="DAGOLDEN"
+DESCRIPTION="Perl distribution inc-latest, providing Perl modules:
+inc::latest inc::latest::private.
+
+Use modules bundled in inc/ if they are newer than installed ones."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl
