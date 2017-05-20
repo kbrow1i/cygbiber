@@ -157,3 +157,10 @@ perl-XML-LibXML-Simple
 perl-XML-LibXSLT
 perl-XML-Writer
 perl-autovivification
+
+
+Missing
+=======
+         perl-ExtUtils-Config
+        perl-ExtUtils-InstallPaths
+       perl-Module-Build-Tiny

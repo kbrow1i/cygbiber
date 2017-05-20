@@ -1,0 +1,14 @@
+NAME="perl-Test-Fatal"
+VERSION="0.014"
+RELEASE="2"
+CPAN_AUTHOR="RJBS"
+DESCRIPTION="Perl distribution Test-Fatal, providing Perl modules:
+Test::Fatal.
+
+Incredibly simple helpers for testing code with exceptions."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Try-Tiny"
+inherit perl

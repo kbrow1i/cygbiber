@@ -1,0 +1,14 @@
+NAME="perl-ExtUtils-Config"
+VERSION="0.008"
+RELEASE="1"
+CPAN_AUTHOR="LEONT"
+DESCRIPTION="Perl distribution ExtUtils-Config, providing Perl modules:
+ExtUtils::Config.
+
+A wrapper for perl's configuration."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+ARCH=noarch
+inherit perl

@@ -1,0 +1,14 @@
+NAME="perl-Try-Tiny"
+VERSION="0.28"
+RELEASE=2
+CPAN_AUTHOR="ETHER"
+DESCRIPTION="Perl distribution Try-Tiny, providing Perl modules:
+Try::Tiny.
+
+Minimal try/catch with proper preservation of $@."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

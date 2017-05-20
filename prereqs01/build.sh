@@ -25,26 +25,22 @@ cd ..
 }
 
 install() {
+    local command
     pushd /c/downloads/cygwin/myrepo
     GENINI
     popd
-    # ${setup} -q -X -L -P $1
-    # Need -M on second run so can reinstall.
-    ${setup} -M -X -L
+    command="${setup} -q -X -L"
+    for m in ${mods}
+    do
+	command+=" -P ${m}"
+    done
+    echo "Running ${command}"
+    ${command}
 }
 
 mods="
-                               perl-Archive-Zip
-                               perl-YAML-LibYAML
-                              perl-Module-Build
-                              perl-PAR-Dist
-                              perl-SUPER
-                              perl-Sub-Identify
-                              perl-inc-latest
-                             perl-Test-MockModule
-                          perl-List-MoreUtils
-                         perl-Exporter-Tiny
-                         perl-List-MoreUtils-XS
+         perl-ExtUtils-Config
+         perl-Try-Tiny
 "
 
 rm -f build_failures.txt test_failures.txt
@@ -79,14 +75,20 @@ do
 	    chown -R kbrown .
 	    rm -rf ${dest}/${m}
 	    cp -alf ${PVR}.${ARCH}/dist/${m} ${dest}
-	    install ${m}
 	else
 	    echo ${m} >> ../build_failures.txt
 	    chown -R kbrown .
 	fi
 	echo "Leaving ${m}."
 	cd ..
-    else
-	install ${m}
     fi
 done
+install
+if [ -n "$(cat *.txt)" ]
+then
+    echo There were failures.
+    exit 1
+else
+    exit 0
+fi
+
