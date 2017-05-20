@@ -1,0 +1,33 @@
+--- origsrc/Net-SSLeay-1.81/inc/Module/Install/PRIVATE/Net/SSLeay.pm	2017-01-08 04:34:51.000000000 +0100
++++ src/Net-SSLeay-1.81/inc/Module/Install/PRIVATE/Net/SSLeay.pm	2017-04-01 15:38:00.267027700 +0200
+@@ -46,7 +46,7 @@ EOM
+         LIBS => join(' ', (map {"-L$_"} @{$opts->{lib_paths}}), (map {"-l$_"} @{$opts->{lib_links}})),
+     );
+ 
+-    if ( $self->prompt(
++    if ( 0 && $self->prompt(
+             "Do you want to run external tests?\n".
+             "These tests *will* *fail* if you do not have network connectivity.",
+             'n',
+--- origsrc/Net-SSLeay-1.81/t/local/61_threads-cb-crash.t	2012-04-05 23:29:23.000000000 +0200
++++ src/Net-SSLeay-1.81/t/local/61_threads-cb-crash.t	2017-04-01 15:38:00.267027700 +0200
+@@ -9,7 +9,7 @@ BEGIN {
+ };
+ 
+ #XXX-TODO perhaps perl+ithreads related issue (needs more investigation)
+-plan skip_all => "this test sometimes crashes on cygwin" if $^O eq 'cygwin';
++#plan skip_all => "this test sometimes crashes on cygwin" if $^O eq 'cygwin';
+ 
+ # NOTE: expect warnings about threads still running under perl 5.8 and threads 1.71
+ plan tests => 1;
+--- origsrc/Net-SSLeay-1.81/t/local/62_threads-ctx_new-deadlock.t	2012-04-05 23:29:23.000000000 +0200
++++ src/Net-SSLeay-1.81/t/local/62_threads-ctx_new-deadlock.t	2017-04-01 15:38:00.282653500 +0200
+@@ -9,7 +9,7 @@ BEGIN {
+ };
+ 
+ #XXX-TODO perhaps perl+ithreads related issue (needs more investigation)
+-plan skip_all => "this test sometimes crashes on cygwin" if $^O eq 'cygwin';
++#plan skip_all => "this test sometimes crashes on cygwin" if $^O eq 'cygwin';
+ 
+ plan tests => 1;
+ 

@@ -1,0 +1,24 @@
+_ml="Test::Fatal"
+inform " Build of perl-Dist-CheckConflicts requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Dist-CheckConflicts"
+VERSION="0.11"
+RELEASE="2"
+CPAN_AUTHOR="DOY"
+DESCRIPTION="Perl distribution Dist-CheckConflicts, providing Perl modules:
+Dist::CheckConflicts.
+
+Declare version conflicts for your dist."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Module-Runtime"
+inherit perl

@@ -1,0 +1,24 @@
+_ml="Importer Test2::Tools::Tiny"
+inform " Build of perl-Sub-Info requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Sub-Info"
+VERSION="0.002"
+RELEASE="1"
+CPAN_AUTHOR="EXODIST"
+DESCRIPTION="Perl distribution Sub-Info, providing Perl modules:
+Sub::Info.
+
+Tool for inspecting subroutines."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Importer"
+inherit perl

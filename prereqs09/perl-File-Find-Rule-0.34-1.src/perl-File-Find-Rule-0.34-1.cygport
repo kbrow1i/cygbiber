@@ -1,0 +1,23 @@
+_ml="Number::Compare Text::Glob"
+inform " Build of perl-File-Find-Rule requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-File-Find-Rule"
+VERSION="0.34"
+RELEASE="1"
+CPAN_AUTHOR="RCLAMP"
+DESCRIPTION="Perl distribution File-Find-Rule, providing Perl modules:
+File::Find::Rule File::Find::Rule::Test::ATeam.
+
+Alternative interface to File::Find."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Number-Compare perl-Text-Glob"
+inherit perl

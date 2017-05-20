@@ -1,0 +1,14 @@
+NAME="perl-Devel-StackTrace"
+VERSION="2.02"
+RELEASE="1"
+CPAN_AUTHOR="DROLSKY"
+DESCRIPTION="Perl distribution Devel-StackTrace, providing Perl modules:
+Devel::StackTrace Devel::StackTrace::Frame.
+
+An object representing a stack trace."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

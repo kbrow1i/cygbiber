@@ -1,0 +1,14 @@
+NAME="perl-Tie-Cycle"
+VERSION="1.222"
+RELEASE="1"
+CPAN_AUTHOR="BDFOY"
+DESCRIPTION="Perl distribution Tie-Cycle, providing Perl modules:
+Tie::Cycle.
+
+Cycle through a list of values via a scalar."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

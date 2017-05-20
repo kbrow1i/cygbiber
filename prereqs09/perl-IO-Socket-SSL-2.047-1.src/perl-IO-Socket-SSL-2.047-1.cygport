@@ -1,0 +1,27 @@
+_ml="Net::SSLeay Test::Without::Module"
+inform " Build of perl-IO-Socket-SSL requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-IO-Socket-SSL"
+VERSION="2.047"
+RELEASE="1"
+CPAN_AUTHOR="SULLR"
+DESCRIPTION="Perl distribution IO-Socket-SSL, providing Perl modules:
+IO::Socket::SSL IO::Socket::SSL::Intercept IO::Socket::SSL::OCSP_Cache
+IO::Socket::SSL::OCSP_Resolver IO::Socket::SSL::PublicSuffix
+IO::Socket::SSL::SSL_Context IO::Socket::SSL::SSL_HANDLE
+IO::Socket::SSL::Session_Cache IO::Socket::SSL::Utils.
+
+Nearly transparent SSL encapsulation for IO::Socket::INET."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Net-SSLeay"
+inherit perl

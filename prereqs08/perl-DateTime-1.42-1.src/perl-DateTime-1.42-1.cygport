@@ -1,0 +1,25 @@
+_ml="CPAN::Meta::Check DateTime::Locale DateTime::TimeZone Dist::CheckConflicts Params::ValidationCompiler Specio Specio::Declare Specio::Exporter Specio::Library::Builtins Specio::Library::Numeric Specio::Library::String Test::Fatal Test::Warnings Try::Tiny namespace::autoclean"
+inform " Build of perl-DateTime requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-DateTime"
+VERSION="1.42"
+RELEASE="1"
+CPAN_AUTHOR="DROLSKY"
+DESCRIPTION="Perl distribution DateTime, providing Perl modules:
+DateTime DateTime::Duration DateTime::Helpers DateTime::Infinite
+DateTime::Infinite::Future DateTime::Infinite::Past DateTime::LeapSecond
+DateTime::PP DateTime::PPExtra DateTime::Types.
+
+A date and time object for Perl."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-DateTime-Locale perl-DateTime-TimeZone perl-Dist-CheckConflicts perl-Params-ValidationCompiler perl-Specio perl-Try-Tiny perl-namespace-autoclean"
+inherit perl

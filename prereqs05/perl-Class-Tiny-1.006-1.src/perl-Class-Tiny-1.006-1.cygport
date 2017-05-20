@@ -1,0 +1,14 @@
+NAME="perl-Class-Tiny"
+VERSION="1.006"
+RELEASE="1"
+CPAN_AUTHOR="DAGOLDEN"
+DESCRIPTION="Perl distribution Class-Tiny, providing Perl modules:
+Class::Tiny Class::Tiny::Object.
+
+Minimalist class construction."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

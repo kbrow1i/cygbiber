@@ -1,0 +1,25 @@
+_ml="Encode::Locale HTTP::Date IO::HTML LWP::MediaTypes URI"
+inform " Build of perl-HTTP-Message requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-HTTP-Message"
+VERSION="6.11"
+RELEASE="1"
+CPAN_AUTHOR="ETHER"
+DESCRIPTION="Perl distribution HTTP-Message, providing Perl modules:
+HTTP::Config HTTP::Headers HTTP::Headers::Auth HTTP::Headers::ETag
+HTTP::Headers::Util HTTP::Message HTTP::Request HTTP::Request::Common
+HTTP::Response HTTP::Status.
+
+HTTP style messages."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Encode-Locale perl-HTTP-Date perl-IO-HTML perl-LWP-MediaTypes perl-URI"
+inherit perl

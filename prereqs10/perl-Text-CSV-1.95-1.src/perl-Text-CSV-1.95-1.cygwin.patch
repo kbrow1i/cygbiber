@@ -1,0 +1,85 @@
+--- origsrc/Text-CSV-1.95/CYGWIN-PATCHES/README	1970-01-01 01:00:00.000000000 +0100
++++ src/Text-CSV-1.95/CYGWIN-PATCHES/README	2017-04-26 20:49:51.342630300 +0100
+@@ -0,0 +1,82 @@
++perl-Text-CSV-1.95-1
++-------------------------------------------
++Text::CSV provides facilities for the composition and decomposition of
++comma-separated values.  An instance of the Text::CSV class can combine fields
++into a CSV string and parse a CSV string into fields.
++
++Runtime requirements:
++  cygwin-1.7
++  perl-5.005 or later
++  perl-CSV_XS-0.80 or later
++
++Build requirements:
++  binutils
++  cygport
++  make
++  perl (for ExtUtils::MakeMaker, IO::Handle, Test::Harness, Test::More)
++
++Canonical website:
++  http://search.cpan.org/~makamaka/Text-CSV-1.32/lib/Text/CSV.pm
++
++Canonical download:
++  http://search.cpan.org/~makamaka/Text-CSV-1.32/lib/Text/CSV.pm
++
++-------------------------------------------
++
++Build instructions:
++  unpack perl-Text-CSV-1.95-1-src.tar.xz
++    if you use setup to install this src package, it will be
++        unpacked under /usr/src automatically
++  cd /usr/src
++  cygport ./perl-Text-CSV.cygport all
++
++This will create perl-Text-CSV-1.95-1.noarch/dist,
++  which will contain the files to upload.
++
++-------------------------------------------
++
++Files included in the binary packages:
++
++(perl-Text-CSV-1.95-1.tar.xz)
++  /usr/lib/perl5/vendor_perl/5.22/Text/CSV.pm
++  /usr/lib/perl5/vendor_perl/5.22/Text/CSV_PP.pm
++  /usr/share/doc/Cygwin/perl-Text-CSV.README
++  /usr/share/doc/perl-Text-CSV/CHANGES
++  /usr/share/doc/perl-Text-CSV/README.md
++  /usr/share/man/man3/Text.CSV.3pm.gz
++  /usr/share/man/man3/Text.CSV_PP.3pm.gz
++
++
++-------------------------------------------
++
++Port Notes:
++
++---- version 1.95-1 ----
++Version bump.
++
++---- version 1.94-1 ----
++Version bump.
++
++---- version 1.93-1 ----
++Version bump.
++
++---- version 1.92-1 ----
++Version bump.
++
++---- version 1.91-1 ----
++Version bump.
++
++---- version 1.33-1 ----
++Version bump.
++
++---- version 1.32-2 ----
++Rebuild for perl-5.18.2.
++
++---- version 1.32-1 ----
++Version bump.
++
++---- version 1.21-1 ----
++First version maintained by Dave Stacey, built with Cygport.
++
++
++Cygwin port maintained by Dave Stacey.

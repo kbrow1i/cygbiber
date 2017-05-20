@@ -1,0 +1,14 @@
+NAME="perl-Algorithm-Diff"
+VERSION="1.1903"
+RELEASE="2"
+CPAN_AUTHOR="TYEMQ"
+DESCRIPTION="Perl distribution Algorithm-Diff, providing Perl modules:
+Algorithm::Diff Algorithm::Diff::_impl.
+
+Compute intelligent differences between two files / lists but use the
+old (<=0.59) interface."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

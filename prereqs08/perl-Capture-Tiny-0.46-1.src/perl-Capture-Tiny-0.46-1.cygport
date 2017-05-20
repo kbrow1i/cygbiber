@@ -1,0 +1,23 @@
+_ml="Inline"
+inform " Build of perl-Capture-Tiny requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Capture-Tiny"
+VERSION="0.46"
+RELEASE="1"
+CPAN_AUTHOR="DAGOLDEN"
+DESCRIPTION="Perl distribution Capture-Tiny, providing Perl modules:
+Capture::Tiny.
+
+Capture STDOUT and STDERR from Perl, XS or external programs."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

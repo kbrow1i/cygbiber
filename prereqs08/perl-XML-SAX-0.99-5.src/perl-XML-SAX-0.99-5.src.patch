@@ -1,0 +1,20 @@
+--- origsrc/XML-SAX-0.99/Makefile.PL	2011-09-04 23:37:48.000000000 +0200
++++ src/XML-SAX-0.99/Makefile.PL	2015-07-12 23:02:58.066480900 +0200
+@@ -22,7 +22,7 @@ sub MY::install {
+     my $write_ini_ok = 0;
+ 
+     eval { require XML::SAX };
+-    if ($@) {
++    if (1||$@) {
+         $write_ini_ok = 1;
+     }
+     else {
+@@ -43,7 +43,7 @@ sub MY::install {
+         $script .= <<"INSTALL";
+ 
+ install_sax_pureperl :
+-\t\@\$(PERL) -MXML::SAX -e "XML::SAX->add_parser(q(XML::SAX::PurePerl))->save_parsers()"
++\t\@\$(PERLRUNINST) -MXML::SAX -e "XML::SAX->add_parser(q(XML::SAX::PurePerl))->save_parsers()"
+ 
+ INSTALL
+ 

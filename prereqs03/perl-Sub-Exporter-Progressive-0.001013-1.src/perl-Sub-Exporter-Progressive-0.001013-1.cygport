@@ -1,0 +1,14 @@
+NAME="perl-Sub-Exporter-Progressive"
+VERSION="0.001013"
+RELEASE="1"
+CPAN_AUTHOR="FREW"
+DESCRIPTION="Perl distribution Sub-Exporter-Progressive, providing Perl modules:
+Sub::Exporter::Progressive.
+
+Only use Sub::Exporter if you need it."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

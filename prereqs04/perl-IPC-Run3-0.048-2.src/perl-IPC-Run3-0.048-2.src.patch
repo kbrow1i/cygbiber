@@ -1,0 +1,11 @@
+--- origsrc/IPC-Run3-0.048/t/fork.t	2009-01-15 16:28:27.000000000 +0100
++++ src/IPC-Run3-0.048/t/fork.t	2015-07-12 23:19:38.195355900 +0200
+@@ -2,7 +2,7 @@
+ 
+ use Test::More;
+ plan skip_all => "Test::More 0.31 required for no_ending()" if $Test::More::VERSION <= 0.31;
+-plan skip_all => "tests fail on Win32 and Cygwin" if $^O =~ /^(MSWin32|cygwin)$/;
++plan skip_all => "tests fail on Win32" if $^O =~ /^(MSWin32)$/; # actually passes on Cygwin now
+ plan tests => 5;
+ 
+ use IPC::Run3;

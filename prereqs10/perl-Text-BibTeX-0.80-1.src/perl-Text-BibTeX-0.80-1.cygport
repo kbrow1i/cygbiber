@@ -1,0 +1,27 @@
+_ml="Capture::Tiny Config::AutoConf ExtUtils::LibBuilder Module::Build Scalar::Util"
+inform " Build of perl-Text-BibTeX requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Text-BibTeX"
+VERSION="0.80"
+RELEASE="1"
+CPAN_AUTHOR="AMBS"
+DESCRIPTION="Perl distribution Text-BibTeX, providing Perl modules:
+Text::BibTeX Text::BibTeX::BibEntry Text::BibTeX::BibFormat
+Text::BibTeX::BibSort Text::BibTeX::BibStructure Text::BibTeX::Entry
+Text::BibTeX::File Text::BibTeX::Name Text::BibTeX::NameFormat
+Text::BibTeX::SimpleValue Text::BibTeX::Structure
+Text::BibTeX::StructuredEntry Text::BibTeX::Value.
+
+Interface to read and parse BibTeX files."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Scalar-List-Utils"
+inherit perl

@@ -1,0 +1,14 @@
+NAME="perl-Path-Tiny"
+VERSION="0.104"
+RELEASE="1"
+CPAN_AUTHOR="DAGOLDEN"
+DESCRIPTION="Perl distribution Path-Tiny, providing Perl modules:
+Path::Tiny Path::Tiny::Error.
+
+File path utility."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

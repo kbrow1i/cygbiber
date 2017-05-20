@@ -1,0 +1,11 @@
+--- origsrc/IO-Socket-SSL-2.047/Makefile.PL	2016-07-14 08:19:45.000000000 +0200
++++ src/IO-Socket-SSL-2.047/Makefile.PL	2017-02-18 13:59:13.048997500 +0100
+@@ -117,7 +117,7 @@ my %usable_ca;
+     }
+ }
+ 
+-my $xt = $ENV{NO_NETWORK_TESTING} && 'n';
++my $xt = $ENV{NO_NETWORK_TESTING} ? 'n' : 'y';
+ $xt ||= $yesno->( "Should I do external tests?\n".
+     "These test will detect if there are network problems and fail soft,\n".
+     "so please disable them only if you definitely don't want to have any\n".

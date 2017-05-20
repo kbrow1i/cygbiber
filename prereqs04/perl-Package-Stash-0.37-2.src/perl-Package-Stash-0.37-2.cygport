@@ -1,0 +1,24 @@
+_ml="Test::Requires Test::Fatal Dist::CheckConflicts Package::Stash::XS"
+inform " Build of perl-Package-Stash requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Package-Stash"
+VERSION="0.37"
+RELEASE="2"
+CPAN_AUTHOR="DOY"
+DESCRIPTION="Perl distribution Package-Stash, providing Perl modules:
+Package::Stash Package::Stash::PP.
+
+Routines for manipulating stashes."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Dist-CheckConflicts perl-Module-Implementation perl-Package-Stash-XS"
+inherit perl

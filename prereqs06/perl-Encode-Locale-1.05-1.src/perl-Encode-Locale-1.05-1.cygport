@@ -1,0 +1,13 @@
+NAME="perl-Encode-Locale"
+VERSION="1.05"
+RELEASE="1"
+CPAN_AUTHOR="GAAS"
+DESCRIPTION="Perl distribution Encode-Locale, providing Perl modules:
+Encode::Locale.
+
+Determine the locale encoding."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

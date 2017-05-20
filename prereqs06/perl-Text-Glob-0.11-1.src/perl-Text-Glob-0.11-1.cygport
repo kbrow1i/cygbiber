@@ -1,0 +1,14 @@
+NAME="perl-Text-Glob"
+VERSION="0.11"
+RELEASE="1"
+CPAN_AUTHOR="RCLAMP"
+DESCRIPTION="Perl distribution Text-Glob, providing Perl modules:
+Text::Glob.
+
+Match globbing patterns against text."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

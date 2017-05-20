@@ -1,0 +1,13 @@
+NAME="perl-Encode-JIS2K"
+VERSION="0.03"
+RELEASE="1"
+CPAN_AUTHOR="DANKOGAI"
+DESCRIPTION="Perl distribution Encode-JIS2K, providing Perl modules:
+Encode::JIS2K Encode::JIS2K::2022JP3.
+
+JIS X 0212 (aka JIS 2000) Encodings."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

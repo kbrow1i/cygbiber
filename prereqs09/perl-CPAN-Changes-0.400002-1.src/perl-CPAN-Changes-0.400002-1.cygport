@@ -1,0 +1,14 @@
+NAME="perl-CPAN-Changes"
+VERSION="0.400002"
+RELEASE="1"
+CPAN_AUTHOR="HAARG"
+DESCRIPTION="Perl distribution CPAN-Changes, providing Perl modules:
+CPAN::Changes CPAN::Changes::Group CPAN::Changes::Release
+Test::CPAN::Changes.
+
+Read and write Changes files."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

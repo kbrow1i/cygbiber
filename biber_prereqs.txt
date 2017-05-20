@@ -5,6 +5,7 @@ should be your dependency tree for perl-5.24.1 (the first few have a
 cycle somewhere in their dependencies, so you need to build them, then
 start from the top again, they're the ones that are indented "too far"):
 
+00
                                perl-Archive-Zip
                                perl-YAML-LibYAML
                               perl-Module-Build
@@ -16,8 +17,10 @@ start from the top again, they're the ones that are indented "too far"):
                           perl-List-MoreUtils
                          perl-Exporter-Tiny
                          perl-List-MoreUtils-XS
+01
          perl-ExtUtils-Config
          perl-Try-Tiny
+02
         perl-ExtUtils-Helpers
         perl-ExtUtils-InstallPaths
         perl-Importer
@@ -25,6 +28,7 @@ start from the top again, they're the ones that are indented "too far"):
         perl-Test-Fatal
         perl-Test-Requires
         perl-Test-Simple
+03
        perl-Dist-CheckConflicts
        perl-Module-Build-Tiny
        perl-Module-Implementation
@@ -33,6 +37,7 @@ start from the top again, they're the ones that are indented "too far"):
        perl-Sub-Info
        perl-Term-Table
        perl-Variable-Magic
+04
       perl-B-Hooks-EndOfScope
       perl-Class-Data-Inheritable
       perl-Class-Inspector
@@ -45,6 +50,7 @@ start from the top again, they're the ones that are indented "too far"):
       perl-Role-Tiny
       perl-Test-Needs
       perl-Test2-Suite
+05
      perl-Class-Tiny
      perl-Class-XSAccessor
      perl-Exception-Class
@@ -58,6 +64,7 @@ start from the top again, they're the ones that are indented "too far"):
      perl-Test-Without-Module
      perl-Test2-Plugin-NoWarnings
      perl-namespace-clean
+06
     perl-CPAN-Meta-Check
     perl-Class-Singleton
     perl-Encode-Locale
@@ -76,6 +83,7 @@ start from the top again, they're the ones that are indented "too far"):
     perl-Text-Glob
     perl-URI
     perl-namespace-autoclean
+07
    perl-DateTime-Locale
    perl-DateTime-TimeZone
    perl-Encode-ISO2022
@@ -90,6 +98,7 @@ start from the top again, they're the ones that are indented "too far"):
    perl-Test-NoWarnings
    perl-XML-NamespaceSupport
    perl-XML-SAX-Base
+08
   perl-Algorithm-Diff
   perl-Capture-Tiny
   perl-DateTime
@@ -111,6 +120,7 @@ start from the top again, they're the ones that are indented "too far"):
   perl-Test-TrailingSpace
   perl-WWW-RobotRules
   perl-XML-SAX
+09
  perl-Business-ISBN-Data
  perl-CPAN-Changes
  perl-Class-Factory-Util
@@ -164,3 +174,10 @@ Missing
          perl-ExtUtils-Config
         perl-ExtUtils-InstallPaths
        perl-Module-Build-Tiny
+   perl-Sub-Name
+  perl-Package-DeprecationManager
+ perl-Class-Factory-Util
+ perl-DateTime-Format-Strptime
+perl-DateTime-Calendar-Julian
+perl-DateTime-Format-Builder
+perl-Sort-Key

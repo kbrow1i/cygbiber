@@ -1,0 +1,13 @@
+NAME="perl-HTML-Tagset"
+VERSION="3.20"
+RELEASE="5"
+CPAN_AUTHOR="PETDANCE"
+DESCRIPTION="Perl distribution HTML-Tagset, providing Perl modules:
+HTML::Tagset.
+
+Data tables useful in parsing HTML."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

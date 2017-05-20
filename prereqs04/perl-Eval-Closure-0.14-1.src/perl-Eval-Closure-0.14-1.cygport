@@ -1,0 +1,23 @@
+_ml="Test::Fatal Test::Requires"
+inform " Build of perl-Eval-Closure requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Eval-Closure"
+VERSION="0.14"
+RELEASE="1"
+CPAN_AUTHOR="DOY"
+DESCRIPTION="Perl distribution Eval-Closure, providing Perl modules:
+Eval::Closure.
+
+Safely and cleanly create closures via string eval."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

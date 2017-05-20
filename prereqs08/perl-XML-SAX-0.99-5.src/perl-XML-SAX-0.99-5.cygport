@@ -1,0 +1,18 @@
+NAME="perl-XML-SAX"
+VERSION="0.99"
+RELEASE="5"
+CPAN_AUTHOR="GRANTM"
+DESCRIPTION="Perl distribution XML-SAX, providing Perl modules:
+XML::SAX XML::SAX::DocumentLocator XML::SAX::ParserFactory
+XML::SAX::PurePerl XML::SAX::PurePerl::DebugHandler
+XML::SAX::PurePerl::Exception XML::SAX::PurePerl::Productions
+XML::SAX::PurePerl::Reader XML::SAX::PurePerl::Reader::Stream
+XML::SAX::PurePerl::Reader::String XML::SAX::PurePerl::Reader::URI.
+
+Simple API for XML."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-XML-NamespaceSupport perl-XML-SAX-Base"
+inherit perl

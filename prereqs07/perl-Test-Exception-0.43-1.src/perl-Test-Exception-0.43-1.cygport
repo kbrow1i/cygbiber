@@ -1,0 +1,23 @@
+_ml="Sub::Uplevel"
+inform " Build of perl-Test-Exception requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Test-Exception"
+VERSION="0.43"
+RELEASE="1"
+CPAN_AUTHOR="EXODIST"
+DESCRIPTION="Perl distribution Test-Exception, providing Perl modules:
+Test::Exception.
+
+Test exception-based code."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Sub-Uplevel"
+inherit perl

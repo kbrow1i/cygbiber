@@ -1,0 +1,14 @@
+NAME="perl-Sub-Uplevel"
+VERSION="0.2800"
+RELEASE="1"
+CPAN_AUTHOR="DAGOLDEN"
+DESCRIPTION="Perl distribution Sub-Uplevel, providing Perl modules:
+Sub::Uplevel.
+
+Apparently run a function in a higher stack frame."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl
