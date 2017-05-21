@@ -175,6 +175,7 @@ perl-autovivification
 Missing
 =======
          perl-ExtUtils-Config
+	 perl-Mojolicious
         perl-ExtUtils-InstallPaths
        perl-Module-Build-Tiny
    perl-Sub-Name
@@ -185,10 +186,3 @@ Missing
 perl-DateTime-Calendar-Julian
 perl-DateTime-Format-Builder
 perl-Sort-Key
-
-perl-Mojolicious
- ExtUtils::MakeMaker
- IO::Socket::IP
- JSON::PP
- Pod::Simple
- Time::Local
