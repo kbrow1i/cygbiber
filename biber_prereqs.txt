@@ -19,8 +19,14 @@ start from the top again, they're the ones that are indented "too far"):
                          perl-List-MoreUtils-XS
 01
          perl-ExtUtils-Config
-	 perl-Mojolicious
-         perl-Try-Tiny
+	 perl-Mojolicious  xxxxxxxxx According to cygport this
+                               requires perl-IO-Socket-SSL
+                               perl-Scalar-List-Utils
+                               perl-Test-Simple; but maybe not a build
+                               dependency.
+         perl-Try-Tiny     xxxxxxxx According to cygport this requires
+                               perl-Tie-Cycle; but maybe not a build
+                               dependency.
 02
         perl-ExtUtils-Helpers
         perl-ExtUtils-InstallPaths
@@ -102,7 +108,7 @@ start from the top again, they're the ones that are indented "too far"):
 08
   perl-Algorithm-Diff
   perl-Capture-Tiny
-  perl-DateTime
+  perl-DateTime   xxxxxxxxx Does this require perl-DateTime-Format-Strptime?
   perl-Encode-EUCJPASCII
   perl-Encode-HanExtra
   perl-Encode-JISX0213
@@ -111,7 +117,7 @@ start from the top again, they're the ones that are indented "too far"):
   perl-HTTP-Cookies
   perl-HTTP-Daemon
   perl-HTTP-Negotiate
-  perl-List-SomeUtils-XS
+  perl-List-SomeUtils-XS xxxxxx Does this require perl-Test-LeakTrace?
   perl-Net-HTTP
   perl-Net-SSLeay
   perl-POD2-Base
@@ -163,6 +169,7 @@ perl-Sort-Key
 perl-Test-Differences
 perl-Text-BibTeX
 perl-Text-CSV
+perl-Text-CSV_XS
 perl-Text-Roman
 perl-Unicode-Collate
 perl-Unicode-LineBreak
@@ -186,3 +193,4 @@ Missing
 perl-DateTime-Calendar-Julian
 perl-DateTime-Format-Builder
 perl-Sort-Key
+perl-Text-CSV_XS

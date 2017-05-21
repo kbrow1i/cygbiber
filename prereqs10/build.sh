@@ -60,6 +60,7 @@ perl-Sort-Key
 perl-Test-Differences
 perl-Text-BibTeX
 perl-Text-CSV
+perl-Text-CSV_XS
 perl-Text-Roman
 perl-Unicode-Collate
 perl-Unicode-LineBreak

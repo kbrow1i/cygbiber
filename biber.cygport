@@ -1,6 +1,6 @@
 NAME="biber"
 VERSION=2.7
-RELEASE=1
+RELEASE=2
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
 DESCRIPTION="Biber is a BibTeX replacement for users of BibLaTeX.  Biber supports
@@ -26,11 +26,14 @@ perl-Data-Compare
 perl-Data-Dump
 perl-Data-Uniqid
 perl-Date-Simple
+perl-DateTime-Format-Builder
+perl-DateTime-Calendar-Julian
 perl-File-Slurp
 perl-IPC-Cmd
 perl-IPC-Run3
 perl-List-AllUtils
 perl-List-MoreUtils
+perl-List-MoreUtils-XS
 perl-Module-Build
 perl-Mozilla-CA
 perl-Regexp-Common
@@ -42,8 +45,12 @@ perl-Encode-EUCJPASCII
 perl-Encode-HanExtra
 perl-Encode-JIS2K
 perl-XML-LibXML-Simple
+perl-XML-LibXML
 perl-XML-LibXSLT
 perl-XML-Writer
+perl-Sort-Key
+perl-Text-CSV
+perl-Text-CSV_XS
 perl-Text-Roman
 perl-URI
 perl-Text-BibTeX
@@ -56,4 +63,6 @@ perl-Lingua-Translit
 "
 
 REQUIRES="texlive-collection-bibtexextra perl-autovivification"
+# Should I add perl-Text-CSV_XS?
+
 ARCH=noarch
