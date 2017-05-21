@@ -19,6 +19,7 @@ start from the top again, they're the ones that are indented "too far"):
                          perl-List-MoreUtils-XS
 01
          perl-ExtUtils-Config
+	 perl-Mojolicious
          perl-Try-Tiny
 02
         perl-ExtUtils-Helpers
@@ -184,3 +185,10 @@ Missing
 perl-DateTime-Calendar-Julian
 perl-DateTime-Format-Builder
 perl-Sort-Key
+
+perl-Mojolicious
+ ExtUtils::MakeMaker
+ IO::Socket::IP
+ JSON::PP
+ Pod::Simple
+ Time::Local

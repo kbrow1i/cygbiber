@@ -40,6 +40,7 @@ install() {
 
 mods="
          perl-ExtUtils-Config
+         perl-Mojolicious
          perl-Try-Tiny
 "
 
