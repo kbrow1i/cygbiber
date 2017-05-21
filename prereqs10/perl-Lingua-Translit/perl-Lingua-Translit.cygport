@@ -1,0 +1,14 @@
+NAME="perl-Lingua-Translit"
+VERSION="0.26"
+RELEASE=2
+CPAN_AUTHOR="ALINKE"
+DESCRIPTION="Perl distribution Lingua-Translit, providing Perl modules:
+Lingua::Translit Lingua::Translit::Tables.
+
+Transliterates text between writing systems."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

@@ -1,0 +1,25 @@
+_ml="Test::CPAN::Changes XML::LibXML"
+inform " Build of perl-XML-LibXSLT requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-XML-LibXSLT"
+VERSION="1.95"
+RELEASE=3
+CPAN_AUTHOR="SHLOMIF"
+DESCRIPTION="Perl distribution XML-LibXSLT, providing Perl modules:
+Driver::BaseClass Driver::LibXSLT Driver::Sablotron
+Driver::Sablotron::Handler XML::LibXSLT XML::LibXSLT::Security
+XML::LibXSLT::StylesheetWrapper.
+
+Interface to GNOME libxslt library."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-XML-LibXML"
+inherit perl

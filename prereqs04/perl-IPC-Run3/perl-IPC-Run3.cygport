@@ -1,0 +1,16 @@
+NAME="perl-IPC-Run3"
+VERSION="0.048"
+RELEASE=3
+CPAN_AUTHOR="RJBS"
+DESCRIPTION="Perl distribution IPC-Run3, providing Perl modules:
+IPC::Run3.
+
+Run a subprocess with input/ouput redirection."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+
+PATCH_URI="achim.patch"
+
+inherit perl

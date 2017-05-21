@@ -1,0 +1,14 @@
+NAME="perl-WWW-RobotRules"
+VERSION="6.02"
+RELEASE=6
+CPAN_AUTHOR="GAAS"
+DESCRIPTION="Perl distribution WWW-RobotRules, providing Perl modules:
+WWW::RobotRules WWW::RobotRules::AnyDBM_File WWW::RobotRules::InCore.
+
+Database of robots.txt-derived permissions."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-URI"
+inherit perl

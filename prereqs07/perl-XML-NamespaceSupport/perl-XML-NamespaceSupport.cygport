@@ -1,0 +1,14 @@
+NAME="perl-XML-NamespaceSupport"
+VERSION="1.12"
+RELEASE=2
+CPAN_AUTHOR="PERIGRIN"
+DESCRIPTION="Perl distribution XML-NamespaceSupport, providing Perl modules:
+XML::NamespaceSupport.
+
+A simple generic namespace processor."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

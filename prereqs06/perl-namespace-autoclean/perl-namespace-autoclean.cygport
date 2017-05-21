@@ -1,0 +1,24 @@
+_ml="B::Hooks::EndOfScope Sub::Identify Test::Requires namespace::clean"
+inform " Build of perl-namespace-autoclean requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-namespace-autoclean"
+VERSION="0.28"
+RELEASE=2
+CPAN_AUTHOR="ETHER"
+DESCRIPTION="Perl distribution namespace-autoclean, providing Perl modules:
+namespace::autoclean.
+
+Keep imports out of your namespace."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-B-Hooks-EndOfScope perl-Sub-Identify perl-namespace-clean"
+inherit perl

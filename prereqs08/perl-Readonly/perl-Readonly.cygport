@@ -1,0 +1,23 @@
+_ml="Module::Build::Tiny"
+inform " Build of perl-Readonly requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Readonly"
+VERSION="2.05"
+RELEASE=2
+CPAN_AUTHOR="SANKO"
+DESCRIPTION="Perl distribution Readonly, providing Perl modules:
+Readonly Readonly::Array Readonly::Hash Readonly::Scalar.
+
+Facility for creating read-only scalars, arrays, hashes."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

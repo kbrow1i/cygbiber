@@ -1,0 +1,22 @@
+_ml="Inline::Files Test::Warn Parse::RecDescent"
+inform " Build of perl-Inline requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Inline"
+VERSION="0.80"
+RELEASE=3
+CPAN_AUTHOR="INGY"
+DESCRIPTION="Perl distribution Inline, providing Perl modules:
+Foo::Tester Inline Inline::Foo Inline::MakeMaker Inline::denter.
+
+Write Perl Subroutines in Other Programming Languages."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

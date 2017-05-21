@@ -1,0 +1,15 @@
+NAME="perl-ExtUtils-Helpers"
+VERSION="0.026"
+RELEASE=2
+CPAN_AUTHOR="LEONT"
+DESCRIPTION="Perl distribution ExtUtils-Helpers, providing Perl modules:
+ExtUtils::Helpers ExtUtils::Helpers::Unix ExtUtils::Helpers::VMS
+ExtUtils::Helpers::Windows.
+
+Various portability utilities for module builders."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

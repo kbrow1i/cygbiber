@@ -1,0 +1,15 @@
+NAME="perl-File-Listing"
+VERSION="6.04"
+RELEASE=6
+CPAN_AUTHOR="GAAS"
+DESCRIPTION="Perl distribution File-Listing, providing Perl modules:
+File::Listing File::Listing::apache File::Listing::dosftp
+File::Listing::netware File::Listing::unix File::Listing::vms.
+
+Parse directory listing."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-HTTP-Date"
+inherit perl

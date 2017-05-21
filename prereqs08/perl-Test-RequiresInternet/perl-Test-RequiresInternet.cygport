@@ -1,0 +1,14 @@
+NAME="perl-Test-RequiresInternet"
+VERSION="0.05"
+RELEASE=2
+CPAN_AUTHOR="MALLEN"
+DESCRIPTION="Perl distribution Test-RequiresInternet, providing Perl modules:
+Test::RequiresInternet.
+
+Easily test network connectivity."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

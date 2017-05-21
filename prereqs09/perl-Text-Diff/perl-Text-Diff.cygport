@@ -1,0 +1,23 @@
+_ml="Algorithm::Diff"
+inform " Build of perl-Text-Diff requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Text-Diff"
+VERSION="1.44"
+RELEASE=2
+CPAN_AUTHOR="NEILB"
+DESCRIPTION="Perl distribution Text-Diff, providing Perl modules:
+Text::Diff Text::Diff::Base Text::Diff::Config Text::Diff::Table.
+
+Perform diffs on files and record sets."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Algorithm-Diff"
+inherit perl

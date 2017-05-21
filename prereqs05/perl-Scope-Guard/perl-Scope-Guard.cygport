@@ -1,0 +1,14 @@
+NAME="perl-Scope-Guard"
+VERSION="0.21"
+RELEASE=2
+CPAN_AUTHOR="CHOCOLATE"
+DESCRIPTION="Perl distribution Scope-Guard, providing Perl modules:
+Scope::Guard.
+
+Lexically-scoped resource management."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

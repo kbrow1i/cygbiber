@@ -1,0 +1,13 @@
+NAME="perl-LWP-MediaTypes"
+VERSION="6.02"
+RELEASE=6
+CPAN_AUTHOR="GAAS"
+DESCRIPTION="Perl distribution LWP-MediaTypes, providing Perl modules:
+LWP::MediaTypes.
+
+Guess media type for a file or a URL."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

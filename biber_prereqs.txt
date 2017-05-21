@@ -110,6 +110,7 @@ start from the top again, they're the ones that are indented "too far"):
   perl-HTTP-Cookies
   perl-HTTP-Daemon
   perl-HTTP-Negotiate
+  perl-List-SomeUtils-XS
   perl-Net-HTTP
   perl-Net-SSLeay
   perl-POD2-Base
@@ -139,6 +140,7 @@ start from the top again, they're the ones that are indented "too far"):
  perl-Tie-Cycle
  perl-XML-LibXML
  perl-libwww-perl
+10
 perl-Business-ISBN
 perl-Business-ISMN
 perl-Business-ISSN
@@ -176,6 +178,7 @@ Missing
        perl-Module-Build-Tiny
    perl-Sub-Name
   perl-Package-DeprecationManager
+  perl-List-SomeUtils-XS
  perl-Class-Factory-Util
  perl-DateTime-Format-Strptime
 perl-DateTime-Calendar-Julian

@@ -1,0 +1,15 @@
+NAME="perl-ExtUtils-InstallPaths"
+VERSION=0.011
+RELEASE="1"
+CPAN_AUTHOR="LEONT"
+DESCRIPTION="Perl distribution perl-ExtUtils-InstallPaths, providing Perl modules:
+ExtUtils::InstallPaths.
+
+Build.PL install path logic made easy."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+ARCH=noarch
+
+NO_PERL_DEPS=1
+inherit perl

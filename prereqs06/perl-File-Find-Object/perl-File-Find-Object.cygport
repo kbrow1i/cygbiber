@@ -1,0 +1,28 @@
+_ml="Class::XSAccessor Module::Build"
+inform " Build of perl-File-Find-Object requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-File-Find-Object"
+VERSION="0.3.2"
+RELEASE=2
+CPAN_AUTHOR="SHLOMIF"
+DESCRIPTION="Perl distribution File-Find-Object, providing Perl modules:
+File::Find::Object File::Find::Object::Base File::Find::Object::DeepPath
+File::Find::Object::PathComp File::Find::Object::Result
+File::Find::Object::TopPath.
+
+An object oriented File::Find replacement."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Class-XSAccessor"
+inherit perl
+SRC_URI="${SRC_URI/${VERSION}/v${VERSION}}"
+SRC_DIR="${PN/perl-/}-v${PV}"

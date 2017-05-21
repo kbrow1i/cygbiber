@@ -1,0 +1,13 @@
+NAME="perl-Variable-Magic"
+VERSION="0.61"
+RELEASE=2
+CPAN_AUTHOR="VPIT"
+DESCRIPTION="Perl distribution Variable-Magic, providing Perl modules:
+Variable::Magic.
+
+Associate user-defined magic to variables from Perl."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

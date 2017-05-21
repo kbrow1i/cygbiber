@@ -1,0 +1,13 @@
+CPAN_AUTHOR=ishigaki
+inherit perl
+
+NAME="perl-Text-CSV"
+VERSION=1.95
+RELEASE=2
+CATEGORY="Perl"
+SUMMARY="Perl comma-separated values manipulation module"
+DESCRIPTION="Text::CSV provides facilities for the composition and
+decomposition of comma-separated values.  An instance of the Text::CSV
+class can combine fields into a CSV string and parse a CSV string into
+fields."
+ARCH=noarch

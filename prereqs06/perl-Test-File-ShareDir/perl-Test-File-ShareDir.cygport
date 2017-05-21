@@ -1,0 +1,27 @@
+_ml="Class::Tiny File::Copy::Recursive File::ShareDir Path::Tiny Scope::Guard Test::Fatal"
+inform " Build of perl-Test-File-ShareDir requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Test-File-ShareDir"
+VERSION="1.001002"
+RELEASE=2
+CPAN_AUTHOR="KENTNL"
+DESCRIPTION="Perl distribution Test-File-ShareDir, providing Perl modules:
+Test::File::ShareDir Test::File::ShareDir::Dist
+Test::File::ShareDir::Module Test::File::ShareDir::Object::Dist
+Test::File::ShareDir::Object::Inc Test::File::ShareDir::Object::Module
+Test::File::ShareDir::TempDirObject Test::File::ShareDir::Utils.
+
+Create a Fake ShareDir for your modules for testing."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Class-Tiny perl-File-Copy-Recursive perl-File-ShareDir perl-Path-Tiny perl-Scope-Guard"
+inherit perl

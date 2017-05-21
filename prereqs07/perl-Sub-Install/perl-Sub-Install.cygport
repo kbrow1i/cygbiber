@@ -1,0 +1,13 @@
+NAME="perl-Sub-Install"
+VERSION="0.928"
+RELEASE=3
+CPAN_AUTHOR="RJBS"
+DESCRIPTION="Perl distribution Sub-Install, providing Perl modules:
+Sub::Install.
+
+Install subroutines into packages easily."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

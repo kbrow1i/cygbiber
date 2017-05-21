@@ -1,0 +1,24 @@
+_ml="IO::Socket::SSL LWP::UserAgent Mozilla::CA Net::HTTPS Test::RequiresInternet"
+inform " Build of perl-LWP-Protocol-https requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-LWP-Protocol-https"
+VERSION="6.07"
+RELEASE=2
+CPAN_AUTHOR="OALDERS"
+DESCRIPTION="Perl distribution LWP-Protocol-https, providing Perl modules:
+LWP::Protocol::https LWP::Protocol::https::Socket.
+
+Provide https support for LWP::UserAgent."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-IO-Socket-SSL perl-Mozilla-CA perl-Net-HTTP perl-libwww-perl"
+inherit perl

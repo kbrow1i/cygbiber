@@ -1,0 +1,13 @@
+NAME="perl-Sort-Key"
+VERSION=1.33
+RELEASE="1"
+CPAN_AUTHOR="SALVA"
+DESCRIPTION="Perl distribution Sort-Key, providing Perl modules:
+Sort::Key.
+
+The fastest way to sort anything in Perl."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

@@ -1,0 +1,13 @@
+NAME="perl-Params-Util"
+VERSION="1.07"
+RELEASE=6
+CPAN_AUTHOR="ADAMK"
+DESCRIPTION="Perl distribution Params-Util, providing Perl modules:
+Params::Util.
+
+Simple, compact and correct param-checking functions."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

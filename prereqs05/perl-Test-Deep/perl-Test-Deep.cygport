@@ -1,0 +1,30 @@
+NAME="perl-Test-Deep"
+VERSION="1.126"
+RELEASE=2
+CPAN_AUTHOR="RJBS"
+DESCRIPTION="Perl distribution Test-Deep, providing Perl modules:
+Test::Deep Test::Deep::All Test::Deep::Any Test::Deep::Array
+Test::Deep::ArrayEach Test::Deep::ArrayElementsOnly Test::Deep::ArrayLength
+Test::Deep::ArrayLengthOnly Test::Deep::Blessed Test::Deep::Boolean
+Test::Deep::Cache Test::Deep::Cache::Simple Test::Deep::Class
+Test::Deep::Cmp Test::Deep::Code Test::Deep::Hash Test::Deep::HashEach
+Test::Deep::HashElements Test::Deep::HashKeys Test::Deep::HashKeysOnly
+Test::Deep::Ignore Test::Deep::Isa Test::Deep::ListMethods Test::Deep::MM
+Test::Deep::Methods Test::Deep::NoTest Test::Deep::None Test::Deep::Number
+Test::Deep::Obj Test::Deep::Ref Test::Deep::RefType Test::Deep::Regexp
+Test::Deep::RegexpMatches Test::Deep::RegexpOnly Test::Deep::RegexpRef
+Test::Deep::RegexpRefOnly Test::Deep::RegexpVersion Test::Deep::ScalarRef
+Test::Deep::ScalarRefOnly Test::Deep::Set Test::Deep::Shallow
+Test::Deep::Stack Test::Deep::String Test::Deep::SubHash
+Test::Deep::SubHashElements Test::Deep::SubHashKeys
+Test::Deep::SubHashKeysOnly Test::Deep::SuperHash
+Test::Deep::SuperHashElements Test::Deep::SuperHashKeys
+Test::Deep::SuperHashKeysOnly.
+
+Extremely flexible deep comparison."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

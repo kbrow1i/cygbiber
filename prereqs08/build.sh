@@ -50,6 +50,7 @@ mods="
   perl-HTTP-Cookies
   perl-HTTP-Daemon
   perl-HTTP-Negotiate
+  perl-List-SomeUtils-XS
   perl-Net-HTTP
   perl-Net-SSLeay
   perl-POD2-Base

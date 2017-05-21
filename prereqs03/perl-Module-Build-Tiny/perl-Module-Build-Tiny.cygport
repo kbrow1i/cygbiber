@@ -1,0 +1,15 @@
+NAME="perl-Module-Build-Tiny"
+VERSION=0.039
+RELEASE="1"
+CPAN_AUTHOR="LEONT"
+DESCRIPTION="Perl distribution perl-Module-Build-Tiny, providing Perl modules:
+Module::Build::Tiny.
+
+A tiny replacement for Module::Build"
+
+DIFF_EXCLUDES="MYMETA.*"
+
+ARCH=noarch
+
+NO_PERL_DEPS=1
+inherit perl

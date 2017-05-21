@@ -1,0 +1,23 @@
+_ml="Module::Build"
+inform " Build of perl-List-UtilsBy requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-List-UtilsBy"
+VERSION="0.10"
+RELEASE=2
+CPAN_AUTHOR="PEVANS"
+DESCRIPTION="Perl distribution List-UtilsBy, providing Perl modules:
+List::UtilsBy.
+
+Higher-order list utility functions."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

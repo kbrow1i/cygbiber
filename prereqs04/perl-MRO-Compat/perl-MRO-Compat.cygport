@@ -1,0 +1,14 @@
+NAME="perl-MRO-Compat"
+VERSION="0.13"
+RELEASE=2
+CPAN_AUTHOR="HAARG"
+DESCRIPTION="Perl distribution MRO-Compat, providing Perl modules:
+MRO::Compat.
+
+Mro::* interface compatibility for Perls < 5.9.5."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

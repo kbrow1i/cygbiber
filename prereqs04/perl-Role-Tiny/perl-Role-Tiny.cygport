@@ -1,0 +1,14 @@
+NAME="perl-Role-Tiny"
+VERSION="2.000005"
+RELEASE=2
+CPAN_AUTHOR="HAARG"
+DESCRIPTION="Perl distribution Role-Tiny, providing Perl modules:
+Role::Tiny Role::Tiny::With.
+
+Roles. Like a nouvelle cuisine portion size slice of Moose."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

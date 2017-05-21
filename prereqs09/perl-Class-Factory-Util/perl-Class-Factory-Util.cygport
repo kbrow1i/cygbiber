@@ -1,0 +1,15 @@
+NAME="perl-Class-Factory-Util"
+VERSION=1.7
+RELEASE="1"
+CPAN_AUTHOR="DROLSKY"
+DESCRIPTION="Perl distribution Class-Factory-Util, providing Perl modules:
+Class::Factory::Util.
+
+Provide utility methods for factory classes."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+ARCH=noarch
+
+NO_PERL_DEPS=1
+inherit perl

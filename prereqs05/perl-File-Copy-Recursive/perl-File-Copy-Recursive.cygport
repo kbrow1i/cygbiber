@@ -1,0 +1,13 @@
+NAME="perl-File-Copy-Recursive"
+VERSION="0.38"
+RELEASE=6
+CPAN_AUTHOR="DMUEY"
+DESCRIPTION="Perl distribution File-Copy-Recursive, providing Perl modules:
+File::Copy::Recursive.
+
+Perl extension for recursively copying files and directories."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

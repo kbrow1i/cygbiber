@@ -1,0 +1,13 @@
+NAME="perl-Text-Roman"
+VERSION="3.5"
+RELEASE=2
+CPAN_AUTHOR="SYP"
+DESCRIPTION="Perl distribution Text-Roman, providing Perl modules:
+Text::Roman.
+
+Allows conversion between Roman and Arabic algarisms."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

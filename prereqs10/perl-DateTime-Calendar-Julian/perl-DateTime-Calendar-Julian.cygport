@@ -1,0 +1,15 @@
+NAME="perl-DateTime-Calendar-Julian"
+VERSION=0.04
+RELEASE="1"
+CPAN_AUTHOR="PIJLL"
+DESCRIPTION="Perl distribution DateTime-Calendar-Julian, providing Perl modules:
+DateTime::Calendar::Julian.
+
+Datetime object in the Julian calendar."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+ARCH=noarch
+
+NO_PERL_DEPS=1
+inherit perl

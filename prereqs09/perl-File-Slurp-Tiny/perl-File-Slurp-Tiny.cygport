@@ -1,0 +1,13 @@
+NAME="perl-File-Slurp-Tiny"
+VERSION="0.004"
+RELEASE=2
+CPAN_AUTHOR="LEONT"
+DESCRIPTION="Perl distribution File-Slurp-Tiny, providing Perl modules:
+File::Slurp::Tiny.
+
+A simple, sane and efficient file slurper [DISCOURAGED]."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

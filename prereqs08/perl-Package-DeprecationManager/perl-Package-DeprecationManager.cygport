@@ -1,0 +1,15 @@
+NAME="perl-Package-DeprecationManager"
+VERSION=0.17
+RELEASE="1"
+CPAN_AUTHOR="DROLSKY"
+DESCRIPTION="Perl distribution perl-Package-DeprecationManager, providing Perl modules:
+Package::DeprecationManager.
+
+Manage deprecation warnings for your distribution."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+ARCH=noarch
+
+NO_PERL_DEPS=1
+inherit perl

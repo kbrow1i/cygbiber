@@ -1,0 +1,14 @@
+NAME="perl-Importer"
+VERSION="0.024"
+RELEASE=2
+CPAN_AUTHOR="EXODIST"
+DESCRIPTION="Perl distribution Importer, providing Perl modules:
+Importer.
+
+Alternative but compatible interface to modules that export symbols."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

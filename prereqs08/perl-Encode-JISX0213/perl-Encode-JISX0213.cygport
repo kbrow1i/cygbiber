@@ -1,0 +1,23 @@
+_ml="Encode::ISO2022"
+inform " Build of perl-Encode-JISX0213 requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Encode-JISX0213"
+VERSION="0.04"
+RELEASE=2
+CPAN_AUTHOR="NEZUMI"
+DESCRIPTION="Perl distribution Encode-JISX0213, providing Perl modules:
+Encode::JISX0213 Encode::JISX0213::CCS Encode::ShiftJIS2004.
+
+JIS X 0213 encodings."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Encode-ISO2022"
+inherit perl

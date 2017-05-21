@@ -1,0 +1,24 @@
+_ml="Class::Data::Inheritable Devel::StackTrace"
+inform " Build of perl-Exception-Class requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-Exception-Class"
+VERSION="1.42"
+RELEASE=2
+CPAN_AUTHOR="DROLSKY"
+DESCRIPTION="Perl distribution Exception-Class, providing Perl modules:
+Exception::Class Exception::Class::Base.
+
+A module that allows you to declare real exception classes in Perl."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+REQUIRES="perl-Class-Data-Inheritable perl-Devel-StackTrace"
+inherit perl

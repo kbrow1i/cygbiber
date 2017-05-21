@@ -1,0 +1,15 @@
+NAME="perl-DateTime-Format-Builder"
+VERSION=0.81
+RELEASE="1"
+CPAN_AUTHOR="DROLSKY"
+DESCRIPTION="Perl distribution DateTime-Format-Builder, providing Perl modules:
+DateTime::Format::Builder.
+
+Create DateTime parser classes and objects."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+ARCH=noarch
+
+NO_PERL_DEPS=1
+inherit perl

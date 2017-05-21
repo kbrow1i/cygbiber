@@ -1,0 +1,14 @@
+NAME="perl-Class-Inspector"
+VERSION="1.31"
+RELEASE=2
+CPAN_AUTHOR="PLICEASE"
+DESCRIPTION="Perl distribution Class-Inspector, providing Perl modules:
+Class::Inspector Class::Inspector::Functions.
+
+Get information about a class and its structure."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl
