@@ -1,5 +1,5 @@
 NAME="perl-Test-Simple"
-VERSION="1.302078"
+VERSION="1.302085"
 RELEASE=2
 CPAN_AUTHOR="EXODIST"
 DESCRIPTION="Perl distribution Test-Simple, providing Perl modules:

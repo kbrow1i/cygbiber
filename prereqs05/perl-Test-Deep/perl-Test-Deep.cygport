@@ -1,5 +1,5 @@
 NAME="perl-Test-Deep"
-VERSION="1.126"
+VERSION="1.127"
 RELEASE=2
 CPAN_AUTHOR="RJBS"
 DESCRIPTION="Perl distribution Test-Deep, providing Perl modules:

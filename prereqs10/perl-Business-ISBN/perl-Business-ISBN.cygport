@@ -8,7 +8,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-Business-ISBN"
-VERSION="3.003"
+VERSION="3.004"
 RELEASE=2
 CPAN_AUTHOR="BDFOY"
 DESCRIPTION="Perl distribution Business-ISBN, providing Perl modules:

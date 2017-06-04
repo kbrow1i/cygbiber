@@ -1,5 +1,5 @@
 NAME="perl-Regexp-Common"
-VERSION="2017040401"
+VERSION="2017060201"
 RELEASE=2
 CPAN_AUTHOR="ABIGAIL"
 DESCRIPTION="Perl distribution Regexp-Common, providing Perl modules:

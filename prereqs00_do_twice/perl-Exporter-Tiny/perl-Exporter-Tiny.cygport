@@ -1,5 +1,5 @@
 NAME="perl-Exporter-Tiny"
-VERSION="0.044"
+VERSION="1.000000"
 RELEASE=2
 CPAN_AUTHOR="TOBYINK"
 DESCRIPTION="Perl distribution Exporter-Tiny, providing Perl modules:
