@@ -2,7 +2,7 @@ CPAN_AUTHOR=hmbrand
 inherit perl
 
 NAME="perl-Text-CSV_XS"
-VERSION=1.30
+VERSION=1.31
 RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl comma-separated values manipulation XS backend"
