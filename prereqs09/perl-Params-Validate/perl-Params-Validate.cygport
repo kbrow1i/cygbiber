@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Params-Validate"
 VERSION="1.28"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution Params-Validate, providing Perl modules:
 Params::Validate::Constants Params::Validate::PP Params::Validate::XS.

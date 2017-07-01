@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Term-Table"
 VERSION="0.008"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="EXODIST"
 DESCRIPTION="Perl distribution Term-Table, providing Perl modules:
 Term::Table Term::Table::Cell Term::Table::CellStack Term::Table::HashBase

@@ -1,6 +1,6 @@
 NAME="perl-HTTP-Date"
 VERSION="6.02"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="GAAS"
 DESCRIPTION="Perl distribution HTTP-Date, providing Perl modules:
 HTTP::Date.

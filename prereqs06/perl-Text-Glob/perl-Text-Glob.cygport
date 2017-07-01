@@ -1,6 +1,6 @@
 NAME="perl-Text-Glob"
 VERSION="0.11"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="RCLAMP"
 DESCRIPTION="Perl distribution Text-Glob, providing Perl modules:
 Text::Glob.

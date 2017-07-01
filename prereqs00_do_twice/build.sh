@@ -18,10 +18,10 @@ setup="/c/downloads/cygwin/${DEST_ARCH}.exe"
 GENINI() {
     mksetupini --arch=${DEST_ARCH} --release=kbrown --inifile=${DEST_ARCH}/setup.ini \
 	       --okmissing=required-package --okmissing=curr --releasearea .
-cd ${DEST_ARCH}
-xz -c setup.ini > setup.xz
-chown kbrown setup.ini setup.xz
-cd ..
+    cd ${DEST_ARCH}
+    xz -c setup.ini > setup.xz
+    chown kbrown setup.ini setup.xz
+    cd ..
 }
 
 install() {
@@ -29,7 +29,8 @@ install() {
     GENINI
     popd
     ${setup} -q -X -L -P $1
-    # Need -M on second run so can reinstall.
+    # Need -M on second run so can reinstall.  Alternatively, bump
+    # release after first run.
     # ${setup} -M -X -L
 }
 

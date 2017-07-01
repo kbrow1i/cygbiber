@@ -1,6 +1,6 @@
 NAME="perl-List-SomeUtils-XS"
 VERSION="0.53"
-RELEASE=1
+RELEASE=2
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution List-SomeUtils-XS, providing Perl modules:
 List::SomeUtils::XS

@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Net-SSLeay"
 VERSION="1.81"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="MIKEM"
 DESCRIPTION="Perl distribution Net-SSLeay, providing Perl modules:
 Net::SSLeay Net::SSLeay::Handle.

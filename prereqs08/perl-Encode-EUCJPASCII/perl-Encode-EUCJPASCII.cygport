@@ -1,6 +1,6 @@
 NAME="perl-Encode-EUCJPASCII"
 VERSION="0.03"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="NEZUMI"
 DESCRIPTION="Perl distribution Encode-EUCJPASCII, providing Perl modules:
 Encode::EUCJPASCII.

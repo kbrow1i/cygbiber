@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Test-Warn"
 VERSION="0.32"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="BIGJ"
 DESCRIPTION="Perl distribution Test-Warn, providing Perl modules:
 Test::Warn Test::Warn::Categorization.

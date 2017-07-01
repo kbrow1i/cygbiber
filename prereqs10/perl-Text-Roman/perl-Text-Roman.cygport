@@ -1,6 +1,6 @@
 NAME="perl-Text-Roman"
 VERSION="3.5"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="SYP"
 DESCRIPTION="Perl distribution Text-Roman, providing Perl modules:
 Text::Roman.

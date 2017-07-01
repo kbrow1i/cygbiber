@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-namespace-clean"
 VERSION="0.27"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="RIBASUSHI"
 DESCRIPTION="Perl distribution namespace-clean, providing Perl modules:
 namespace::clean.

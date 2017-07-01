@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Config-AutoConf"
 VERSION="0.314"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="REHSACK"
 DESCRIPTION="Perl distribution Config-AutoConf, providing Perl modules:
 Config::AutoConf.

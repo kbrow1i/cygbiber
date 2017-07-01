@@ -1,6 +1,6 @@
 NAME="perl-HTTP-Negotiate"
 VERSION="6.01"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="GAAS"
 DESCRIPTION="Perl distribution HTTP-Negotiate, providing Perl modules:
 HTTP::Negotiate.

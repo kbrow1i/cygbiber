@@ -1,6 +1,6 @@
 NAME="perl-CPAN-Changes"
 VERSION="0.400002"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="HAARG"
 DESCRIPTION="Perl distribution CPAN-Changes, providing Perl modules:
 CPAN::Changes CPAN::Changes::Group CPAN::Changes::Release

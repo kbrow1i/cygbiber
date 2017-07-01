@@ -1,6 +1,6 @@
 NAME="perl-Role-Tiny"
 VERSION="2.000005"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="HAARG"
 DESCRIPTION="Perl distribution Role-Tiny, providing Perl modules:
 Role::Tiny Role::Tiny::With.

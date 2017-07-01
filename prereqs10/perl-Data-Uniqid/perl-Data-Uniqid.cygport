@@ -1,6 +1,6 @@
 NAME="perl-Data-Uniqid"
 VERSION="0.12"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="MWX"
 DESCRIPTION="Perl distribution Data-Uniqid, providing Perl modules:
 Data::Uniqid.

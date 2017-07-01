@@ -1,6 +1,6 @@
 NAME="perl-File-Slurp-Tiny"
 VERSION="0.004"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="LEONT"
 DESCRIPTION="Perl distribution File-Slurp-Tiny, providing Perl modules:
 File::Slurp::Tiny.

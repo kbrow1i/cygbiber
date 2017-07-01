@@ -1,6 +1,6 @@
 NAME="perl-Encode-HanExtra"
 VERSION="0.23"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="AUDREYT"
 DESCRIPTION="Perl distribution Encode-HanExtra, providing Perl modules:
 Encode::HanExtra Encode::TW::Unisys::SOSI1 Encode::TW::Unisys::SOSI2.

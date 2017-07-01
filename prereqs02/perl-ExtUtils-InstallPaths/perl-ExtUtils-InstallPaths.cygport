@@ -1,6 +1,6 @@
 NAME="perl-ExtUtils-InstallPaths"
 VERSION=0.011
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="LEONT"
 DESCRIPTION="Perl distribution perl-ExtUtils-InstallPaths, providing Perl modules:
 ExtUtils::InstallPaths.

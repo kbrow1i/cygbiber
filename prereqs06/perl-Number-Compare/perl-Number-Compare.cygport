@@ -1,6 +1,6 @@
 NAME="perl-Number-Compare"
 VERSION="0.03"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="RCLAMP"
 DESCRIPTION="Perl distribution Number-Compare, providing Perl modules:
 Number::Compare.

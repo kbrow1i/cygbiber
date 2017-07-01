@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-HTTP-Cookies"
 VERSION="6.03"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="OALDERS"
 DESCRIPTION="Perl distribution HTTP-Cookies, providing Perl modules:
 HTTP::Cookies HTTP::Cookies::Microsoft HTTP::Cookies::Netscape.

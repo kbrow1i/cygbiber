@@ -1,6 +1,6 @@
 NAME="perl-IO-HTML"
 VERSION="1.001"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="CJM"
 DESCRIPTION="Perl distribution IO-HTML, providing Perl modules:
 IO::HTML.

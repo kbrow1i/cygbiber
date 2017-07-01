@@ -1,6 +1,6 @@
 NAME="perl-File-Listing"
 VERSION="6.04"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="GAAS"
 DESCRIPTION="Perl distribution File-Listing, providing Perl modules:
 File::Listing File::Listing::apache File::Listing::dosftp

@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-LWP-Protocol-https"
 VERSION="6.07"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="OALDERS"
 DESCRIPTION="Perl distribution LWP-Protocol-https, providing Perl modules:
 LWP::Protocol::https LWP::Protocol::https::Socket.

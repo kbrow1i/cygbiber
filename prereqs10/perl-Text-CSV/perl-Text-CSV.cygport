@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-Text-CSV"
 VERSION=1.95
-RELEASE=2
+RELEASE=3
 CATEGORY="Perl"
 SUMMARY="Perl comma-separated values manipulation module"
 DESCRIPTION="Text::CSV provides facilities for the composition and

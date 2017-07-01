@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Parse-RecDescent"
 VERSION="1.967015"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="JTBRAUN"
 DESCRIPTION="Perl distribution Parse-RecDescent, providing Perl modules:
 Parse::RecDescent Parse::RecDescent::Action Parse::RecDescent::ColCounter

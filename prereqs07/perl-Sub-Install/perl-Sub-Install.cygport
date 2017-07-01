@@ -1,6 +1,6 @@
 NAME="perl-Sub-Install"
 VERSION="0.928"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="RJBS"
 DESCRIPTION="Perl distribution Sub-Install, providing Perl modules:
 Sub::Install.

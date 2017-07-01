@@ -1,6 +1,6 @@
 NAME="perl-DateTime-Format-Builder"
 VERSION=0.81
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution DateTime-Format-Builder, providing Perl modules:
 DateTime::Format::Builder.

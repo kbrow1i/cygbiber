@@ -1,6 +1,6 @@
 NAME="perl-LWP-MediaTypes"
 VERSION="6.02"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="GAAS"
 DESCRIPTION="Perl distribution LWP-MediaTypes, providing Perl modules:
 LWP::MediaTypes.

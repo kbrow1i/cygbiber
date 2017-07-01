@@ -1,6 +1,6 @@
 NAME="perl-Log-Log4perl"
 VERSION="1.49"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="MSCHILLI"
 DESCRIPTION="Perl distribution Log-Log4perl, providing Perl modules:
 Log::Log4perl Log::Log4perl::Appender Log::Log4perl::Appender::Buffer

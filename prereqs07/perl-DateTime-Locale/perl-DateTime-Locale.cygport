@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-DateTime-Locale"
 VERSION="1.16"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution DateTime-Locale, providing Perl modules:
 DateTime::Locale DateTime::Locale::Base DateTime::Locale::Catalog

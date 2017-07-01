@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Module-Build"
 VERSION="0.4224"
-RELEASE=2
+RELEASE=4
 CPAN_AUTHOR="LEONT"
 DESCRIPTION="Perl distribution Module-Build, providing Perl modules:
 Module::Build Module::Build::Base Module::Build::Compat

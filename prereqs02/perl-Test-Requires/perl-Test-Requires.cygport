@@ -1,6 +1,6 @@
 NAME="perl-Test-Requires"
 VERSION="0.10"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="TOKUHIROM"
 DESCRIPTION="Perl distribution Test-Requires, providing Perl modules:
 Test::Requires.

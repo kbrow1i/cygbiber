@@ -1,6 +1,6 @@
 NAME="perl-HTTP-Daemon"
 VERSION="6.01"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="GAAS"
 DESCRIPTION="Perl distribution HTTP-Daemon, providing Perl modules:
 HTTP::Daemon HTTP::Daemon::ClientConn.

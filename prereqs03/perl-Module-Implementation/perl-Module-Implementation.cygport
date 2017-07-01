@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-Module-Implementation"
 VERSION=0.09
-RELEASE=2
+RELEASE=3
 CATEGORY="Perl"
 SUMMARY="Perl distribution Module-Implemenation"
 DESCRIPTION="This module abstracts out the process of choosing one of several

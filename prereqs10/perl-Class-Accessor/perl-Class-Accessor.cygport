@@ -1,6 +1,6 @@
 NAME="perl-Class-Accessor"
 VERSION="0.34"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="KASEI"
 DESCRIPTION="Perl distribution Class-Accessor, providing Perl modules:
 Class::Accessor Class::Accessor::Fast Class::Accessor::Faster.

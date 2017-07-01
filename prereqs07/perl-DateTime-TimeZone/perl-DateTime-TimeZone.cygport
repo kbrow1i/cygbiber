@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-DateTime-TimeZone"
 VERSION="2.13"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution DateTime-TimeZone, providing Perl modules:
 DateTime::TimeZone DateTime::TimeZone::Africa::Abidjan

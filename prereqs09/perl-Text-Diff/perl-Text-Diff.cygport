@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Text-Diff"
 VERSION="1.44"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="NEILB"
 DESCRIPTION="Perl distribution Text-Diff, providing Perl modules:
 Text::Diff Text::Diff::Base Text::Diff::Config Text::Diff::Table.

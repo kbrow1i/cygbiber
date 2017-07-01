@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Text-BibTeX"
 VERSION="0.80"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="AMBS"
 DESCRIPTION="Perl distribution Text-BibTeX, providing Perl modules:
 Text::BibTeX Text::BibTeX::BibEntry Text::BibTeX::BibFormat

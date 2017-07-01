@@ -1,6 +1,6 @@
 NAME="perl-Sort-Key"
 VERSION=1.33
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="SALVA"
 DESCRIPTION="Perl distribution Sort-Key, providing Perl modules:
 Sort::Key.

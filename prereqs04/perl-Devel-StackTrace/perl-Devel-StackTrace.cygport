@@ -1,6 +1,6 @@
 NAME="perl-Devel-StackTrace"
 VERSION="2.02"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution Devel-StackTrace, providing Perl modules:
 Devel::StackTrace Devel::StackTrace::Frame.

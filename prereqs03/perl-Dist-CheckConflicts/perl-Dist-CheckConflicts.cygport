@@ -9,7 +9,7 @@ if ! check_perl_module $_ml; then
 fi
 NAME="perl-Dist-CheckConflicts"
 VERSION="0.11"
-RELEASE="3"
+RELEASE=4
 CPAN_AUTHOR="DOY"
 DESCRIPTION="Perl distribution Dist-CheckConflicts, providing Perl modules:
 Dist::CheckConflicts.

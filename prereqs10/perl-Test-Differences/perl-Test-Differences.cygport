@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Test-Differences"
 VERSION="0.64"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DCANTRELL"
 DESCRIPTION="Perl distribution Test-Differences, providing Perl modules:
 Test::Differences.

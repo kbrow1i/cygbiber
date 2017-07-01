@@ -1,6 +1,6 @@
 NAME="perl-Test-RequiresInternet"
 VERSION="0.05"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="MALLEN"
 DESCRIPTION="Perl distribution Test-RequiresInternet, providing Perl modules:
 Test::RequiresInternet.

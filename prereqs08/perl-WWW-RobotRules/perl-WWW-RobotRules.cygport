@@ -1,6 +1,6 @@
 NAME="perl-WWW-RobotRules"
 VERSION="6.02"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="GAAS"
 DESCRIPTION="Perl distribution WWW-RobotRules, providing Perl modules:
 WWW::RobotRules WWW::RobotRules::AnyDBM_File WWW::RobotRules::InCore.

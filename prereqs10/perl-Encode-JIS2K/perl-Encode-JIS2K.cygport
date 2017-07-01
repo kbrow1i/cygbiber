@@ -1,6 +1,6 @@
 NAME="perl-Encode-JIS2K"
 VERSION="0.03"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DANKOGAI"
 DESCRIPTION="Perl distribution Encode-JIS2K, providing Perl modules:
 Encode::JIS2K Encode::JIS2K::2022JP3.

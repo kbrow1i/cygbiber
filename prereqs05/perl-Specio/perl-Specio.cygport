@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Specio"
 VERSION="0.37"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution Specio, providing Perl modules:
 Specio Specio::Coercion Specio::Constraint::AnyCan

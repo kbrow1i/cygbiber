@@ -1,6 +1,6 @@
 NAME="perl-Class-Inspector"
 VERSION="1.31"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="PLICEASE"
 DESCRIPTION="Perl distribution Class-Inspector, providing Perl modules:
 Class::Inspector Class::Inspector::Functions.

@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Test-Exception"
 VERSION="0.43"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="EXODIST"
 DESCRIPTION="Perl distribution Test-Exception, providing Perl modules:
 Test::Exception.

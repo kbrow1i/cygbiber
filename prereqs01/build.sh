@@ -42,6 +42,8 @@ mods="
          perl-ExtUtils-Config
          perl-Mojolicious
          perl-Try-Tiny
+	 perl-File-Remove
+	 perl-YAML-Tiny
 "
 
 rm -f build_failures.txt test_failures.txt

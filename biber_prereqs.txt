@@ -27,6 +27,8 @@ start from the top again, they're the ones that are indented "too far"):
          perl-Try-Tiny     xxxxxxxx According to cygport this requires
                                perl-Tie-Cycle; but maybe not a build
                                dependency.
+         perl-File-Remove
+	 perl-YAML-Tiny
 02
         perl-ExtUtils-Helpers
         perl-ExtUtils-InstallPaths
@@ -35,6 +37,7 @@ start from the top again, they're the ones that are indented "too far"):
         perl-Test-Fatal
         perl-Test-Requires
         perl-Test-Simple
+	perl-Module-Install
 03
        perl-Dist-CheckConflicts
        perl-Module-Build-Tiny
@@ -194,3 +197,7 @@ perl-DateTime-Calendar-Julian
 perl-DateTime-Format-Builder
 perl-Sort-Key
 perl-Text-CSV_XS
+
+perl-Module-Install
+perl-File-Remove
+perl-YAML-Tiny

@@ -1,6 +1,6 @@
 NAME="perl-Variable-Magic"
 VERSION="0.61"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="VPIT"
 DESCRIPTION="Perl distribution Variable-Magic, providing Perl modules:
 Variable::Magic.

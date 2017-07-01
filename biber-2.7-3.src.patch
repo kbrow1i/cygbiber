@@ -1,0 +1,11 @@
+--- origsrc/biber/lib/Biber/LaTeX/Recode.pm	2017-04-08 16:04:18.000000000 -0400
++++ src/biber/lib/Biber/LaTeX/Recode.pm	2017-07-01 17:09:17.886644500 -0400
+@@ -313,7 +313,7 @@ sub latex_decode {
+     # Workaround perl's lack of variable-width negative look-behind -
+     # Reverse string (and therefore some of the Re) and use variable width negative look-ahead
+     $text = reverse $text;
+-    $text =~ s/}(\pM+\pL){(?!\pL+\\)/$1/g;
++    $text =~ s/}(\pM+\pL)\{(?!\pL+\\)/$1/g;
+     $text = reverse $text;
+ 
+     # Replace verbatim field markers

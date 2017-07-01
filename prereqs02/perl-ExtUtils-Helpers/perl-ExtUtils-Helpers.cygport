@@ -1,6 +1,6 @@
 NAME="perl-ExtUtils-Helpers"
 VERSION="0.026"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="LEONT"
 DESCRIPTION="Perl distribution ExtUtils-Helpers, providing Perl modules:
 ExtUtils::Helpers ExtUtils::Helpers::Unix ExtUtils::Helpers::VMS

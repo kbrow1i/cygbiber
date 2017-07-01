@@ -1,6 +1,6 @@
 NAME="perl-Package-DeprecationManager"
 VERSION=0.17
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution perl-Package-DeprecationManager, providing Perl modules:
 Package::DeprecationManager.

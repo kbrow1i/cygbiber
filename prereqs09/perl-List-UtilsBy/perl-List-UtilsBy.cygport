@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-List-UtilsBy"
 VERSION="0.10"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="PEVANS"
 DESCRIPTION="Perl distribution List-UtilsBy, providing Perl modules:
 List::UtilsBy.

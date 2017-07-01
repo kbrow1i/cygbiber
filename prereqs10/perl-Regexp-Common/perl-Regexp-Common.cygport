@@ -1,6 +1,6 @@
 NAME="perl-Regexp-Common"
 VERSION="2017060201"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="ABIGAIL"
 DESCRIPTION="Perl distribution Regexp-Common, providing Perl modules:
 Regexp::Common Regexp::Common::CC Regexp::Common::Entry Regexp::Common::SEN

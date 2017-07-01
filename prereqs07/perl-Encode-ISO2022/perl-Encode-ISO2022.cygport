@@ -1,6 +1,6 @@
 NAME="perl-Encode-ISO2022"
 VERSION="0.04"
-RELEASE=4
+RELEASE=5
 CPAN_AUTHOR="NEZUMI"
 DESCRIPTION="Perl distribution Encode-ISO2022, providing Perl modules:
 Encode::ISO2022 Encode::ISO2022JP2 Encode::ISOIRSingle Encode::JISLegacy.

@@ -1,6 +1,6 @@
 NAME="perl-Class-Tiny"
 VERSION="1.006"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DAGOLDEN"
 DESCRIPTION="Perl distribution Class-Tiny, providing Perl modules:
 Class::Tiny Class::Tiny::Object.

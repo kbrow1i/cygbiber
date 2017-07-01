@@ -1,6 +1,6 @@
 NAME="perl-ExtUtils-Config"
 VERSION="0.008"
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="LEONT"
 DESCRIPTION="Perl distribution ExtUtils-Config, providing Perl modules:
 ExtUtils::Config.

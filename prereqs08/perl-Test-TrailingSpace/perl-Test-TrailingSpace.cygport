@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Test-TrailingSpace"
 VERSION="0.0301"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="SHLOMIF"
 DESCRIPTION="Perl distribution Test-TrailingSpace, providing Perl modules:
 Test::TrailingSpace.

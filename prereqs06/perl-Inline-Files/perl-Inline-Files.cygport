@@ -1,6 +1,6 @@
 NAME="perl-Inline-Files"
 VERSION="0.69"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="AMBS"
 DESCRIPTION="Perl distribution Inline-Files, providing Perl modules:
 Inline::Files Inline::Files::Data Inline::Files::Virtual.

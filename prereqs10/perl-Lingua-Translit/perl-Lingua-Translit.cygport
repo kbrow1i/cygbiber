@@ -1,6 +1,6 @@
 NAME="perl-Lingua-Translit"
 VERSION="0.27"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="ALINKE"
 DESCRIPTION="Perl distribution Lingua-Translit, providing Perl modules:
 Lingua::Translit Lingua::Translit::Tables.

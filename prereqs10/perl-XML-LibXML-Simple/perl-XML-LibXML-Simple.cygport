@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-XML-LibXML-Simple"
 VERSION="0.97"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="MARKOV"
 DESCRIPTION="Perl distribution XML-LibXML-Simple, providing Perl modules:
 XML::LibXML::Simple.

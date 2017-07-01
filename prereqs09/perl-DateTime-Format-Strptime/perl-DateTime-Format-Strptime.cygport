@@ -1,6 +1,6 @@
 NAME="perl-DateTime-Format-Strptime"
 VERSION=1.73
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution DateTime-Format-Strptime, providing Perl modules:
 DateTime::Format::Strptime.

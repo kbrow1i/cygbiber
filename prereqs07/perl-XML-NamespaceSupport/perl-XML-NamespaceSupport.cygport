@@ -1,6 +1,6 @@
 NAME="perl-XML-NamespaceSupport"
 VERSION="1.12"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="PERIGRIN"
 DESCRIPTION="Perl distribution XML-NamespaceSupport, providing Perl modules:
 XML::NamespaceSupport.

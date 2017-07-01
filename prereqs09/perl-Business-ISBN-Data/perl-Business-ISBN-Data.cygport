@@ -1,6 +1,6 @@
 NAME="perl-Business-ISBN-Data"
 VERSION="20140910.003"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="BDFOY"
 DESCRIPTION="Perl distribution Business-ISBN-Data, providing Perl modules:
 Business::ISBN::Data.

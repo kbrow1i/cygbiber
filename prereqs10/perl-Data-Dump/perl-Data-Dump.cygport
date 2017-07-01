@@ -1,6 +1,6 @@
 NAME="perl-Data-Dump"
 VERSION="1.23"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="GAAS"
 DESCRIPTION="Perl distribution Data-Dump, providing Perl modules:
 Data::Dump Data::Dump::FilterContext Data::Dump::Filtered Data::Dump::Trace

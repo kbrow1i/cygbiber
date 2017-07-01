@@ -1,0 +1,14 @@
+NAME="perl-YAML-Tiny"
+VERSION="1.70"
+RELEASE="2"
+CPAN_AUTHOR="ETHER"
+DESCRIPTION="Perl distribution YAML-Tiny, providing Perl modules:
+YAML::Tiny.
+
+Read/Write YAML files with as little code as possible."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

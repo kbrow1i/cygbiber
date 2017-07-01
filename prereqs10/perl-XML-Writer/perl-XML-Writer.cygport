@@ -1,6 +1,6 @@
 NAME="perl-XML-Writer"
 VERSION="0.625"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="JOSEPHW"
 DESCRIPTION="Perl distribution XML-Writer, providing Perl modules:
 XML::Writer XML::Writer::_PrintChecker XML::Writer::_String.

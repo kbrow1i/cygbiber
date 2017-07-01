@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Business-ISBN"
 VERSION="3.004"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="BDFOY"
 DESCRIPTION="Perl distribution Business-ISBN, providing Perl modules:
 Business::ISBN Business::ISBN10 Business::ISBN13.

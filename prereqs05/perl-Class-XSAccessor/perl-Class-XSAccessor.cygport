@@ -1,6 +1,6 @@
 NAME="perl-Class-XSAccessor"
 VERSION="1.19"
-RELEASE=4
+RELEASE=5
 CPAN_AUTHOR="SMUELLER"
 DESCRIPTION="Perl distribution Class-XSAccessor, providing Perl modules:
 Class::XSAccessor Class::XSAccessor::Array.

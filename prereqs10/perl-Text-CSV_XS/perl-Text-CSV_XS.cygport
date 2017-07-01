@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-Text-CSV_XS"
 VERSION=1.31
-RELEASE=2
+RELEASE=3
 CATEGORY="Perl"
 SUMMARY="Perl comma-separated values manipulation XS backend"
 DESCRIPTION="Text::CSV_XS provides facilities for the composition and

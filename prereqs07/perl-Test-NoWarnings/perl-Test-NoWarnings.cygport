@@ -9,7 +9,7 @@ if ! check_perl_module $_ml; then
 fi
 NAME="perl-Test-NoWarnings"
 VERSION="1.04"
-RELEASE=5
+RELEASE=6
 CPAN_AUTHOR="ADAMK"
 DESCRIPTION="Perl distribution Test-NoWarnings, providing Perl modules:
 Test::NoWarnings Test::NoWarnings::Warning.

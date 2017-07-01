@@ -1,6 +1,6 @@
 NAME="perl-File-Slurp"
 VERSION="9999.19"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="URI"
 DESCRIPTION="Perl distribution File-Slurp, providing Perl modules:
 File::Slurp FileSlurp_12.

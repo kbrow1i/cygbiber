@@ -1,6 +1,6 @@
 NAME="perl-Sub-Exporter-Progressive"
 VERSION="0.001013"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="FREW"
 DESCRIPTION="Perl distribution Sub-Exporter-Progressive, providing Perl modules:
 Sub::Exporter::Progressive.

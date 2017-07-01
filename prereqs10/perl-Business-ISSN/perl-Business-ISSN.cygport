@@ -1,6 +1,6 @@
 NAME="perl-Business-ISSN"
 VERSION="0.91"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="BDFOY"
 DESCRIPTION="Perl distribution Business-ISSN, providing Perl modules:
 Business::ISSN.

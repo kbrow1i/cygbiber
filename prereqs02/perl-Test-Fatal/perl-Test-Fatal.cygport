@@ -1,6 +1,6 @@
 NAME="perl-Test-Fatal"
 VERSION="0.014"
-RELEASE="3"
+RELEASE=4
 CPAN_AUTHOR="RJBS"
 DESCRIPTION="Perl distribution Test-Fatal, providing Perl modules:
 Test::Fatal.

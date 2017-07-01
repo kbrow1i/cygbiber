@@ -1,6 +1,6 @@
 NAME="perl-IPC-Run3"
 VERSION="0.048"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="RJBS"
 DESCRIPTION="Perl distribution IPC-Run3, providing Perl modules:
 IPC::Run3.

@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-ExtUtils-LibBuilder"
 VERSION="0.08"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="AMBS"
 DESCRIPTION="Perl distribution ExtUtils-LibBuilder, providing Perl modules:
 ExtUtils::LibBuilder.

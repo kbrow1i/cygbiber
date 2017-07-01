@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-File-Find-Object"
 VERSION="0.3.2"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="SHLOMIF"
 DESCRIPTION="Perl distribution File-Find-Object, providing Perl modules:
 File::Find::Object File::Find::Object::Base File::Find::Object::DeepPath

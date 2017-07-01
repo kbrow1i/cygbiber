@@ -1,6 +1,6 @@
 NAME="perl-Params-Util"
 VERSION="1.07"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="ADAMK"
 DESCRIPTION="Perl distribution Params-Util, providing Perl modules:
 Params::Util.

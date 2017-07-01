@@ -1,6 +1,6 @@
 NAME="perl-XML-SAX-Base"
 VERSION="1.09"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="GRANTM"
 DESCRIPTION="Perl distribution XML-SAX-Base, providing Perl modules:
 XML::SAX::Base XML::SAX::Base::NoHandler XML::SAX::Exception.

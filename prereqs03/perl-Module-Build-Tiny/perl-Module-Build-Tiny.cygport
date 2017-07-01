@@ -1,6 +1,6 @@
 NAME="perl-Module-Build-Tiny"
 VERSION=0.039
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="LEONT"
 DESCRIPTION="Perl distribution perl-Module-Build-Tiny, providing Perl modules:
 Module::Build::Tiny.

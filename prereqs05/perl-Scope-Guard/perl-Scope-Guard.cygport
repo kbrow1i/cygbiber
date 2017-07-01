@@ -1,6 +1,6 @@
 NAME="perl-Scope-Guard"
 VERSION="0.21"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="CHOCOLATE"
 DESCRIPTION="Perl distribution Scope-Guard, providing Perl modules:
 Scope::Guard.

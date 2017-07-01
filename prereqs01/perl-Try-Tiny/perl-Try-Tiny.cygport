@@ -1,6 +1,6 @@
 NAME="perl-Try-Tiny"
 VERSION="0.28"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="ETHER"
 DESCRIPTION="Perl distribution Try-Tiny, providing Perl modules:
 Try::Tiny.

@@ -1,6 +1,6 @@
 NAME="perl-XML-SAX"
 VERSION="0.99"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="GRANTM"
 DESCRIPTION="Perl distribution XML-SAX, providing Perl modules:
 XML::SAX XML::SAX::DocumentLocator XML::SAX::ParserFactory

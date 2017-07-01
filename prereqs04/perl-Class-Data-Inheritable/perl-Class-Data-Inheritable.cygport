@@ -1,6 +1,6 @@
 NAME="perl-Class-Data-Inheritable"
 VERSION="0.08"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="TMTM"
 DESCRIPTION="Perl distribution Class-Data-Inheritable, providing Perl modules:
 Class::Data::Inheritable.

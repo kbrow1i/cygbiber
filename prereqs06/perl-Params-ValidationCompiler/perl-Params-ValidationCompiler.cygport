@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Params-ValidationCompiler"
 VERSION="0.24"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution Params-ValidationCompiler, providing Perl modules:
 Params::ValidationCompiler Params::ValidationCompiler::Compiler

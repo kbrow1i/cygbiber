@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-File-ShareDir-Install"
 VERSION="0.11"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="ETHER"
 DESCRIPTION="Perl distribution File-ShareDir-Install, providing Perl modules:
 File::ShareDir::Install.

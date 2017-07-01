@@ -1,6 +1,6 @@
 NAME="perl-HTML-Tagset"
 VERSION="3.20"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="PETDANCE"
 DESCRIPTION="Perl distribution HTML-Tagset, providing Perl modules:
 HTML::Tagset.

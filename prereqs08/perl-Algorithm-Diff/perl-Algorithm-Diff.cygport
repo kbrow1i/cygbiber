@@ -1,6 +1,6 @@
 NAME="perl-Algorithm-Diff"
 VERSION="1.1903"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="TYEMQ"
 DESCRIPTION="Perl distribution Algorithm-Diff, providing Perl modules:
 Algorithm::Diff Algorithm::Diff::_impl.

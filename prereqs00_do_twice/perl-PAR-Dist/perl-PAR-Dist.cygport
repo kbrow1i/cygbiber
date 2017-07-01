@@ -4,12 +4,12 @@ inform "   $_ml"
 for _m in $_ml; do
   check_perl_module $_m || warning " Perl module $_m is missing from build environment."
 done
-if ! check_perl_module $_ml; then
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-PAR-Dist"
 VERSION="0.49"
-RELEASE="4"
+RELEASE=5
 CPAN_AUTHOR="RSCHUPP"
 DESCRIPTION="Perl distribution PAR-Dist, providing Perl modules:
 PAR::Dist.

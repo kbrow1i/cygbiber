@@ -1,6 +1,6 @@
 NAME="perl-Data-Compare"
 VERSION="1.25"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="DCANTRELL"
 DESCRIPTION="Perl distribution Data-Compare, providing Perl modules:
 Data::Compare Data::Compare::Plugins::Scalar::Properties.

@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Encode-JISX0213"
 VERSION="0.04"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="NEZUMI"
 DESCRIPTION="Perl distribution Encode-JISX0213, providing Perl modules:
 Encode::JISX0213 Encode::JISX0213::CCS Encode::ShiftJIS2004.

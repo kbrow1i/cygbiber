@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-libwww-perl"
 VERSION="6.26"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="OALDERS"
 DESCRIPTION="Perl distribution libwww-perl, providing Perl modules:
 LWP LWP::Authen::Basic LWP::Authen::Digest LWP::Authen::Ntlm LWP::ConnCache

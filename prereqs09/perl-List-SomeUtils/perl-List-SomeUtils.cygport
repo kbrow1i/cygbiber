@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-List-SomeUtils"
 VERSION="0.54"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution List-SomeUtils, providing Perl modules:
 List::SomeUtils List::SomeUtils::PP.

@@ -46,6 +46,7 @@ mods="
         perl-Test-Fatal
         perl-Test-Requires
         perl-Test-Simple
+	perl-Module-Install
 "
 
 rm -f build_failures.txt test_failures.txt

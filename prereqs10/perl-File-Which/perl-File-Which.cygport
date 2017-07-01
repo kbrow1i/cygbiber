@@ -1,6 +1,6 @@
 NAME="perl-File-Which"
 VERSION="1.21"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="PLICEASE"
 DESCRIPTION="Perl distribution File-Which, providing Perl modules:
 File::Which.

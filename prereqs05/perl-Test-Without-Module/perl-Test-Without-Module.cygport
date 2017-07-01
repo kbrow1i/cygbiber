@@ -1,6 +1,6 @@
 NAME="perl-Test-Without-Module"
 VERSION="0.20"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="CORION"
 DESCRIPTION="Perl distribution Test-Without-Module, providing Perl modules:
 Test::Without::Module.

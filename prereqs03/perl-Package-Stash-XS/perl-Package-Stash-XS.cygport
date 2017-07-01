@@ -9,7 +9,7 @@ if ! check_perl_module $_ml; then
 fi
 NAME="perl-Package-Stash-XS"
 VERSION="0.28"
-RELEASE="4"
+RELEASE=5
 CPAN_AUTHOR="DOY"
 DESCRIPTION="Perl distribution Package-Stash-XS, providing Perl modules:
 Package::Stash::XS.

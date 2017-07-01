@@ -1,6 +1,6 @@
 NAME="perl-Path-Tiny"
 VERSION="0.104"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="DAGOLDEN"
 DESCRIPTION="Perl distribution Path-Tiny, providing Perl modules:
 Path::Tiny Path::Tiny::Error.

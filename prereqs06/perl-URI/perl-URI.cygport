@@ -1,6 +1,6 @@
 NAME="perl-URI"
 VERSION="1.71"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="ETHER"
 DESCRIPTION="Perl distribution URI, providing Perl modules:
 URI URI::Escape URI::Heuristic URI::IRI URI::QueryParam URI::Split URI::URL

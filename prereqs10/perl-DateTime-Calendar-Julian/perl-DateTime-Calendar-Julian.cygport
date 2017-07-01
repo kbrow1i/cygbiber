@@ -1,6 +1,6 @@
 NAME="perl-DateTime-Calendar-Julian"
 VERSION=0.04
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="PIJLL"
 DESCRIPTION="Perl distribution DateTime-Calendar-Julian, providing Perl modules:
 DateTime::Calendar::Julian.

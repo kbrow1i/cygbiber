@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Test2-Suite"
 VERSION="0.000070"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="EXODIST"
 DESCRIPTION="Perl distribution Test2-Suite, providing Perl modules:
 Test2::Bundle Test2::Bundle::Extended Test2::Bundle::More

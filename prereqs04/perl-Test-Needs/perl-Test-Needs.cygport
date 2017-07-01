@@ -1,6 +1,6 @@
 NAME="perl-Test-Needs"
 VERSION="0.002005"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="HAARG"
 DESCRIPTION="Perl distribution Test-Needs, providing Perl modules:
 Test::Needs.

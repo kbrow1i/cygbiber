@@ -1,0 +1,11 @@
+--- origsrc/Unicode-Collate-1.19/Makefile.PL	2016-12-02 19:33:01.000000000 -0500
++++ src/Unicode-Collate-1.19/Makefile.PL	2017-07-01 16:45:59.046404600 -0400
+@@ -6,7 +6,7 @@ my $clean = {};
+ if (-f "Collate.xs") {
+     print "Making header files for XS...\n";
+ 
+-    do 'mkheader' or die $@ || "mkheader: $!";
++    do './mkheader' or die $@ || "mkheader: $!";
+ 
+     $clean = { FILES => 'ucatbl.h' };
+ }

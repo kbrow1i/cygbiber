@@ -1,6 +1,6 @@
 NAME="perl-File-Copy-Recursive"
 VERSION="0.38"
-RELEASE=6
+RELEASE=7
 CPAN_AUTHOR="DMUEY"
 DESCRIPTION="Perl distribution File-Copy-Recursive, providing Perl modules:
 File::Copy::Recursive.

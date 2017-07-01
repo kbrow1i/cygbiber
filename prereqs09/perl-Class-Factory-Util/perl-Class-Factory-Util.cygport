@@ -1,6 +1,6 @@
 NAME="perl-Class-Factory-Util"
 VERSION=1.7
-RELEASE="1"
+RELEASE=2
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution Class-Factory-Util, providing Perl modules:
 Class::Factory::Util.

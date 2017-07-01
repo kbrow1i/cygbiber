@@ -9,7 +9,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
 fi
 NAME="perl-Sub-Info"
 VERSION="0.002"
-RELEASE=2
+RELEASE=3
 CPAN_AUTHOR="EXODIST"
 DESCRIPTION="Perl distribution Sub-Info, providing Perl modules:
 Sub::Info.

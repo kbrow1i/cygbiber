@@ -9,7 +9,7 @@ if ! check_perl_module $_ml; then
 fi
 NAME="perl-Inline"
 VERSION="0.80"
-RELEASE=3
+RELEASE=4
 CPAN_AUTHOR="INGY"
 DESCRIPTION="Perl distribution Inline, providing Perl modules:
 Foo::Tester Inline Inline::Foo Inline::MakeMaker Inline::denter.
