@@ -53,6 +53,7 @@ mods="
    perl-Test-NoWarnings
    perl-XML-NamespaceSupport
    perl-XML-SAX-Base
+   perl-File-Slurper
 "
 
 rm -f build_failures.txt test_failures.txt

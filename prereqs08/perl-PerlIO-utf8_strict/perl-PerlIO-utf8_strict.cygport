@@ -1,0 +1,11 @@
+NAME="perl-PerlIO-utf8_strict"
+VERSION="0.002"
+RELEASE=2
+CPAN_AUTHOR="LEONT"
+DESCRIPTION="Perl distribution PerlIO-utf8_strict, providing Perl modules:
+PerlIO::utf8_strict."
+
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

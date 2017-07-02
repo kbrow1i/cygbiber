@@ -61,6 +61,7 @@ mods="
   perl-Test-TrailingSpace
   perl-WWW-RobotRules
   perl-XML-SAX
+  perl-PerlIO-utf8_strict
 "
 
 rm -f build_failures.txt test_failures.txt

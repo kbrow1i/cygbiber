@@ -108,6 +108,7 @@ start from the top again, they're the ones that are indented "too far"):
    perl-Test-NoWarnings
    perl-XML-NamespaceSupport
    perl-XML-SAX-Base
+   perl-File-Slurper
 08
   perl-Algorithm-Diff
   perl-Capture-Tiny
@@ -131,6 +132,7 @@ start from the top again, they're the ones that are indented "too far"):
   perl-Test-TrailingSpace
   perl-WWW-RobotRules
   perl-XML-SAX
+  perl-PerlIO-utf8_strict
 09
  perl-Business-ISBN-Data
  perl-CPAN-Changes
@@ -201,3 +203,5 @@ perl-Text-CSV_XS
 perl-Module-Install
 perl-File-Remove
 perl-YAML-Tiny
+perl-File-Slurper
+perl-PerlIO-utf8_strict

@@ -1,0 +1,23 @@
+_ml="Test::Warnings"
+inform " Build of perl-File-Slurper requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
+NAME="perl-File-Slurper"
+VERSION="0.009"
+RELEASE=2
+CPAN_AUTHOR="LEONT"
+DESCRIPTION="Perl distribution File-Slurper, providing Perl modules:
+File::Slurper.
+
+A simple, sane and efficient module to slurp a file."
+
+ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl
