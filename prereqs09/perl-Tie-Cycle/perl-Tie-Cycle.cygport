@@ -1,6 +1,6 @@
 NAME="perl-Tie-Cycle"
-VERSION="1.224"
-RELEASE=3
+VERSION="1.225"
+RELEASE="2"
 CPAN_AUTHOR="BDFOY"
 DESCRIPTION="Perl distribution Tie-Cycle, providing Perl modules:
 Tie::Cycle.

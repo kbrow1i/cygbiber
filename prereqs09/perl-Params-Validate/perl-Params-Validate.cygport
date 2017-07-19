@@ -8,11 +8,12 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-Params-Validate"
-VERSION="1.28"
-RELEASE=3
+VERSION="1.29"
+RELEASE="2"
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution Params-Validate, providing Perl modules:
-Params::Validate::Constants Params::Validate::PP Params::Validate::XS.
+Params::Validate Params::Validate::Constants Params::Validate::PP
+Params::Validate::XS.
 
 Validate method/function parameters."
 

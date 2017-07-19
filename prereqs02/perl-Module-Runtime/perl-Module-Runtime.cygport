@@ -1,13 +1,23 @@
-CPAN_AUTHOR=zefram
-inherit perl
-
+_ml="Module::Build"
+inform " Build of perl-Module-Runtime requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
 NAME="perl-Module-Runtime"
-VERSION=0.014
-RELEASE=3
-CATEGORY="Perl"
-SUMMARY="Perl distribution Module-Runtime"
-DESCRIPTION="The functions exported by this module deal with runtime handling of
-Perl modules, which are normally handled at compile time.  This module avoids
-using any other modules, so that it can be used in low-level infrastructure."
+VERSION="0.015"
+RELEASE="2"
+CPAN_AUTHOR="ZEFRAM"
+DESCRIPTION="Perl distribution Module-Runtime, providing Perl modules:
+Module::Runtime.
+
+Runtime module handling."
 
 ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
+
+NO_PERL_DEPS=1
+inherit perl

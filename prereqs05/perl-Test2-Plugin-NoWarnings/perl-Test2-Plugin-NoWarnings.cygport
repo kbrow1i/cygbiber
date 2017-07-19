@@ -8,8 +8,8 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-Test2-Plugin-NoWarnings"
-VERSION="0.05"
-RELEASE=3
+VERSION="0.06"
+RELEASE="2"
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution Test2-Plugin-NoWarnings, providing Perl modules:
 Test2::Event::Warning Test2::Plugin::NoWarnings.

@@ -1,7 +1,7 @@
 NAME="perl-Test-LeakTrace"
-VERSION="0.15"
-RELEASE=4
-CPAN_AUTHOR="GFUJI"
+VERSION="0.16"
+RELEASE="2"
+CPAN_AUTHOR="LEEJO"
 DESCRIPTION="Perl distribution Test-LeakTrace, providing Perl modules:
 Test::LeakTrace Test::LeakTrace::Script.
 

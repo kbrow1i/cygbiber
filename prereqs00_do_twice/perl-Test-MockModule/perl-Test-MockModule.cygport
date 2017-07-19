@@ -8,14 +8,15 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-Test-MockModule"
-VERSION="0.11"
-RELEASE=4
+VERSION="0.12"
+RELEASE="2"
 CPAN_AUTHOR="GFRANKS"
 DESCRIPTION="Perl distribution Test-MockModule, providing Perl modules:
 Test::MockModule.
 
 Override subroutines in a module for unit testing."
 
+ARCH=noarch
 DIFF_EXCLUDES="MYMETA.*"
 
 NO_PERL_DEPS=1

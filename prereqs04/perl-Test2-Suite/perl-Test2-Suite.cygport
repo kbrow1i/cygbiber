@@ -8,8 +8,8 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-Test2-Suite"
-VERSION="0.000070"
-RELEASE=3
+VERSION="0.000072"
+RELEASE="2"
 CPAN_AUTHOR="EXODIST"
 DESCRIPTION="Perl distribution Test2-Suite, providing Perl modules:
 Test2::Bundle Test2::Bundle::Extended Test2::Bundle::More
@@ -34,7 +34,8 @@ Test2::Tools::Exports Test2::Tools::Grab Test2::Tools::Mock
 Test2::Tools::Ref Test2::Tools::Subtest Test2::Tools::Target
 Test2::Tools::Warnings Test2::Util::Grabber Test2::Util::Ref
 Test2::Util::Stash Test2::Util::Sub Test2::Util::Table
-Test2::Util::Table::Cell Test2::Util::Table::LineBreak Test2::Util::Term.
+Test2::Util::Table::Cell Test2::Util::Table::LineBreak Test2::Util::Term
+Test2::V0.
 
 Distribution with a rich set of tools built upon the Test2 framework."
 

@@ -1,6 +1,6 @@
 NAME="perl-Mojolicious"
-VERSION="7.32"
-RELEASE=3
+VERSION="7.36"
+RELEASE="2"
 CPAN_AUTHOR="SRI"
 DESCRIPTION="Perl distribution Mojolicious, providing Perl modules:
 Mojo Mojo::Asset Mojo::Asset::File Mojo::Asset::Memory Mojo::Base

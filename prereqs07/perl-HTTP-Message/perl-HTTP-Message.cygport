@@ -1,4 +1,4 @@
-_ml="Encode::Locale HTTP::Date IO::HTML LWP::MediaTypes URI"
+_ml="Encode::Locale HTTP::Date IO::HTML LWP::MediaTypes Try::Tiny URI"
 inform " Build of perl-HTTP-Message requires"
 inform "   $_ml"
 for _m in $_ml; do
@@ -8,16 +8,17 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-HTTP-Message"
-VERSION="6.11"
-RELEASE=3
-CPAN_AUTHOR="ETHER"
+VERSION="6.13"
+RELEASE="2"
+CPAN_AUTHOR="OALDERS"
 DESCRIPTION="Perl distribution HTTP-Message, providing Perl modules:
 HTTP::Config HTTP::Headers HTTP::Headers::Auth HTTP::Headers::ETag
 HTTP::Headers::Util HTTP::Message HTTP::Request HTTP::Request::Common
 HTTP::Response HTTP::Status.
 
-HTTP style messages."
+HTTP style message (base class)."
 
+ARCH=noarch
 DIFF_EXCLUDES="MYMETA.*"
 
 NO_PERL_DEPS=1
