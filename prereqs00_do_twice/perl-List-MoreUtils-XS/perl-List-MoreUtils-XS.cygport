@@ -1,4 +1,4 @@
-_ml="List::MoreUtils XSLoader"
+_ml="XSLoader"
 inform " Build of perl-List-MoreUtils-XS requires"
 inform "   $_ml"
 for _m in $_ml; do
@@ -8,13 +8,13 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-List-MoreUtils-XS"
-VERSION="0.418"
-RELEASE=4
+VERSION="0.422"
+RELEASE="2"
 CPAN_AUTHOR="REHSACK"
 DESCRIPTION="Perl distribution List-MoreUtils-XS, providing Perl modules:
 List::MoreUtils::XS.
 
-Provide the stuff missing in List::Util."
+Provide the stuff missing in List::Util in XS."
 
 DIFF_EXCLUDES="MYMETA.*"
 

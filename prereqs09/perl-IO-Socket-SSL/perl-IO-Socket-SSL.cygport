@@ -8,8 +8,8 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-IO-Socket-SSL"
-VERSION="2.049"
-RELEASE="2"
+VERSION="2.050"
+RELEASE="1"
 CPAN_AUTHOR="SULLR"
 DESCRIPTION="Perl distribution IO-Socket-SSL, providing Perl modules:
 IO::Socket::SSL IO::Socket::SSL::Intercept IO::Socket::SSL::OCSP_Cache

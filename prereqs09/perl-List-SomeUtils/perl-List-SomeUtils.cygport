@@ -8,8 +8,8 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-List-SomeUtils"
-VERSION="0.54"
-RELEASE=3
+VERSION="0.56"
+RELEASE="2"
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution List-SomeUtils, providing Perl modules:
 List::SomeUtils List::SomeUtils::PP.
@@ -20,5 +20,5 @@ ARCH=noarch
 DIFF_EXCLUDES="MYMETA.*"
 
 NO_PERL_DEPS=1
-REQUIRES="perl-Module-Implementation"
+REQUIRES="perl-List-SomeUtils-XS perl-Module-Implementation"
 inherit perl

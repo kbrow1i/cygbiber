@@ -1,14 +1,22 @@
+_ml="Test::LeakTrace Test::Warnings"
+inform " Build of perl-List-SomeUtils-XS requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
 NAME="perl-List-SomeUtils-XS"
-VERSION="0.53"
-RELEASE=2
+VERSION="0.55"
+RELEASE="2"
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution List-SomeUtils-XS, providing Perl modules:
-List::SomeUtils::XS
+List::SomeUtils::XS.
 
 XS implementation for List::SomeUtils."
 
 DIFF_EXCLUDES="MYMETA.*"
 
 NO_PERL_DEPS=1
-# REQUIRES="perl-Module-Implementation"
 inherit perl

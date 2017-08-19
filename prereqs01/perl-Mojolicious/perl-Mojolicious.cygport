@@ -1,5 +1,5 @@
 NAME="perl-Mojolicious"
-VERSION="7.36"
+VERSION="7.43"
 RELEASE="2"
 CPAN_AUTHOR="SRI"
 DESCRIPTION="Perl distribution Mojolicious, providing Perl modules:

@@ -28,10 +28,10 @@ install() {
     pushd /c/downloads/cygwin/myrepo
     GENINI
     popd
-    # ${setup} -q -X -L -P $1
+    ${setup} -q -X -L -P $1
     # Need -M on second run so can reinstall.  Alternatively, bump
     # release after first run.
-    ${setup} -M -X -L
+    # ${setup} -M -X -L
 }
 
 mods="

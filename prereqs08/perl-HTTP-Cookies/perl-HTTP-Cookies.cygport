@@ -8,8 +8,8 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-HTTP-Cookies"
-VERSION="6.03"
-RELEASE=3
+VERSION="6.04"
+RELEASE="2"
 CPAN_AUTHOR="OALDERS"
 DESCRIPTION="Perl distribution HTTP-Cookies, providing Perl modules:
 HTTP::Cookies HTTP::Cookies::Microsoft HTTP::Cookies::Netscape.
