@@ -45,6 +45,7 @@ mods="
        perl-Package-Stash-XS
        perl-Sub-Exporter-Progressive
        perl-Sub-Info
+       perl-Sub-Quote
        perl-Term-Table
        perl-Variable-Magic
 "

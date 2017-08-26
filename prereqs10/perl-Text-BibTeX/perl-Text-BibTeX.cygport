@@ -8,8 +8,8 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-Text-BibTeX"
-VERSION="0.80"
-RELEASE=3
+VERSION="0.81"
+RELEASE="2"
 CPAN_AUTHOR="AMBS"
 DESCRIPTION="Perl distribution Text-BibTeX, providing Perl modules:
 Text::BibTeX Text::BibTeX::BibEntry Text::BibTeX::BibFormat
@@ -20,9 +20,8 @@ Text::BibTeX::StructuredEntry Text::BibTeX::Value.
 
 Interface to read and parse BibTeX files."
 
-DIFF_EXCLUDES="MYMETA.*"
+DIFF_EXCLUDES="MYMETA.* MyBuilder.pm"
 
 NO_PERL_DEPS=1
 REQUIRES="perl-Scalar-List-Utils"
 inherit perl
-PATCH_URI="achim.patch"

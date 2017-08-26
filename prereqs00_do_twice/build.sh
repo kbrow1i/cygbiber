@@ -43,9 +43,9 @@ mods="
                               perl-Sub-Identify
                               perl-inc-latest
                              perl-Test-MockModule
+                         perl-List-MoreUtils-XS
                           perl-List-MoreUtils
                          perl-Exporter-Tiny
-                         perl-List-MoreUtils-XS
 "
 
 rm -f build_failures.txt test_failures.txt

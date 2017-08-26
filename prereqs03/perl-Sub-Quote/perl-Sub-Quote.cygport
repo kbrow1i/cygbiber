@@ -1,5 +1,5 @@
-_ml="Algorithm::Diff"
-inform " Build of perl-Text-Diff requires"
+_ml="Test::Fatal"
+inform " Build of perl-Sub-Quote requires"
 inform "   $_ml"
 for _m in $_ml; do
   check_perl_module $_m || warning " Perl module $_m is missing from build environment."
@@ -7,18 +7,17 @@ done
 if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
-NAME="perl-Text-Diff"
-VERSION="1.45"
+NAME="perl-Sub-Quote"
+VERSION="2.004000"
 RELEASE="2"
-CPAN_AUTHOR="NEILB"
-DESCRIPTION="Perl distribution Text-Diff, providing Perl modules:
-Text::Diff Text::Diff::Base Text::Diff::Config Text::Diff::Table.
+CPAN_AUTHOR="HAARG"
+DESCRIPTION="Perl distribution Sub-Quote, providing Perl modules:
+Sub::Defer Sub::Quote.
 
-Perform diffs on files and record sets."
+Efficient generation of subroutines via string eval."
 
 ARCH=noarch
 DIFF_EXCLUDES="MYMETA.*"
 
 NO_PERL_DEPS=1
-REQUIRES="perl-Algorithm-Diff"
 inherit perl

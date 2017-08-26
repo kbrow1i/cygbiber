@@ -1,6 +1,6 @@
 NAME="biber"
 VERSION=2.7
-RELEASE=4
+RELEASE=6
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
 DESCRIPTION="Biber is a BibTeX replacement for users of BibLaTeX.  Biber supports

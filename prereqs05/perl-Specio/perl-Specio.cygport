@@ -1,4 +1,4 @@
-_ml="Devel::StackTrace Eval::Closure MRO::Compat Module::Runtime Role::Tiny Role::Tiny::With Test::Fatal Test::Needs"
+_ml="Devel::StackTrace Eval::Closure MRO::Compat Module::Runtime Role::Tiny Role::Tiny::With Sub::Quote Test::Fatal Test::Needs Try::Tiny"
 inform " Build of perl-Specio requires"
 inform "   $_ml"
 for _m in $_ml; do
@@ -8,7 +8,7 @@ if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
   error " At least one required perl module is missing."
 fi
 NAME="perl-Specio"
-VERSION="0.38"
+VERSION="0.40"
 RELEASE="2"
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution Specio, providing Perl modules:
@@ -36,5 +36,5 @@ ARCH=noarch
 DIFF_EXCLUDES="MYMETA.*"
 
 NO_PERL_DEPS=1
-REQUIRES="perl-Devel-StackTrace perl-Eval-Closure perl-MRO-Compat perl-Module-Runtime perl-Role-Tiny perl-Test-Fatal"
+REQUIRES="perl-Devel-StackTrace perl-Eval-Closure perl-MRO-Compat perl-Module-Runtime perl-Role-Tiny perl-Sub-Quote perl-Test-Fatal perl-Try-Tiny"
 inherit perl
