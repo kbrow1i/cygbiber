@@ -3,7 +3,8 @@ VERSION=1.33
 RELEASE=2
 CPAN_AUTHOR="SALVA"
 DESCRIPTION="Perl distribution Sort-Key, providing Perl modules:
-Sort::Key.
+Sort::Key Sort::Key::Maker Sort::Key::Multi Sort::Key::Natural
+Sort::Key::Register Sort::Key::Types.
 
 The fastest way to sort anything in Perl."
 

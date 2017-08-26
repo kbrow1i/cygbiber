@@ -1,15 +1,24 @@
+_ml="Package::Stash Params::Util Sub::Install Sub::Name Test::Fatal Test::Warnings"
+inform " Build of perl-Package-DeprecationManager requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
 NAME="perl-Package-DeprecationManager"
 VERSION=0.17
 RELEASE=2
 CPAN_AUTHOR="DROLSKY"
-DESCRIPTION="Perl distribution perl-Package-DeprecationManager, providing Perl modules:
+DESCRIPTION="Perl distribution Package-DeprecationManager, providing Perl modules:
 Package::DeprecationManager.
 
 Manage deprecation warnings for your distribution."
 
+ARCH=noarch
 DIFF_EXCLUDES="MYMETA.*"
 
-ARCH=noarch
-
 NO_PERL_DEPS=1
+REQUIRES="perl-Package-Stash perl-Params-Util perl-Sub-Install perl-Sub-Name"
 inherit perl

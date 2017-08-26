@@ -2,7 +2,7 @@ NAME="perl-Sub-Name"
 VERSION=0.21
 RELEASE=2
 CPAN_AUTHOR="ETHER"
-DESCRIPTION="Perl distribution perl-Sub-Name, providing Perl modules:
+DESCRIPTION="Perl distribution Sub-Name, providing Perl modules:
 Sub::Name.
 
 (Re)name a sub."

@@ -5,11 +5,10 @@ CPAN_AUTHOR="PIJLL"
 DESCRIPTION="Perl distribution DateTime-Calendar-Julian, providing Perl modules:
 DateTime::Calendar::Julian.
 
-Datetime object in the Julian calendar."
-
-DIFF_EXCLUDES="MYMETA.*"
+Dates in the Julian calendar."
 
 ARCH=noarch
+DIFF_EXCLUDES="MYMETA.*"
 
 NO_PERL_DEPS=1
 inherit perl

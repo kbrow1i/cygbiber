@@ -1,15 +1,24 @@
+_ml="DateTime DateTime::Locale DateTime::Locale::Base DateTime::Locale::FromData DateTime::TimeZone Package::DeprecationManager Params::ValidationCompiler Specio Specio::Declare Specio::Exporter Specio::Library::Builtins Specio::Library::String Test::Fatal Test::Warnings Try::Tiny"
+inform " Build of perl-DateTime-Format-Strptime requires"
+inform "   $_ml"
+for _m in $_ml; do
+  check_perl_module $_m || warning " Perl module $_m is missing from build environment."
+done
+if [ "x$cygport_no_error" == "x" ] && ! check_perl_module $_ml; then
+  error " At least one required perl module is missing."
+fi
 NAME="perl-DateTime-Format-Strptime"
-VERSION=1.73
-RELEASE=2
+VERSION="1.74"
+RELEASE="2"
 CPAN_AUTHOR="DROLSKY"
 DESCRIPTION="Perl distribution DateTime-Format-Strptime, providing Perl modules:
-DateTime::Format::Strptime.
+DateTime::Format::Strptime DateTime::Format::Strptime::Types.
 
 Parse and format strp and strf time patterns."
 
+ARCH=noarch
 DIFF_EXCLUDES="MYMETA.*"
 
-ARCH=noarch
-
 NO_PERL_DEPS=1
+REQUIRES=" perl-DateTime-Locale perl-DateTime-TimeZone perl-Package-DeprecationManager perl-Params-ValidationCompiler perl-Specio perl-Try-Tiny"
 inherit perl
