@@ -63,7 +63,6 @@ perl-Lingua-Translit
 "
 
 REQUIRES="texlive-collection-bibtexextra perl-autovivification"
-# Should I add perl-Text-CSV_XS?
 
 ARCH=noarch
 
