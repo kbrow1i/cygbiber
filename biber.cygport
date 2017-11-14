@@ -1,5 +1,5 @@
 NAME="biber"
-VERSION=2.7
+VERSION=2.8
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
@@ -18,23 +18,22 @@ DEPEND="
 perl-Test-Simple
 perl-Test-Differences
 perl-File-Which
+perl-Module-Build
 perl-Config-AutoConf
 perl-ExtUtils-LibBuilder
 perl-autovivification
 perl-Class-Accessor
 perl-Data-Compare
-perl-Data-Dump
 perl-Data-Uniqid
 perl-Date-Simple
 perl-DateTime-Format-Builder
 perl-DateTime-Calendar-Julian
-perl-File-Slurp
+perl-File-Slurper
 perl-IPC-Cmd
 perl-IPC-Run3
 perl-List-AllUtils
 perl-List-MoreUtils
 perl-List-MoreUtils-XS
-perl-Module-Build
 perl-Mozilla-CA
 perl-Regexp-Common
 perl-Log-Log4perl
@@ -42,10 +41,11 @@ perl-Unicode-Collate
 perl-Unicode-Normalize
 perl-Unicode-LineBreak
 perl-Encode-EUCJPASCII
-perl-Encode-HanExtra
 perl-Encode-JIS2K
-perl-XML-LibXML-Simple
+perl-Encode-HanExtra
+perl-PerlIO-utf8_strict
 perl-XML-LibXML
+perl-XML-LibXML-Simple
 perl-XML-LibXSLT
 perl-XML-Writer
 perl-Sort-Key
@@ -65,63 +65,3 @@ perl-Lingua-Translit
 REQUIRES="texlive-collection-bibtexextra perl-autovivification"
 
 ARCH=noarch
-
-# dev
-# ===
-# test:
-#                       'Test::More'   => 0,
-#                       'Test::Differences' => 0,
-#                       'File::Which'  => 0
-
-# configure:
-# 'Module::Build' => 0.38
-
-# build:
-#         'Config::AutoConf' => '0.15',
-#         'ExtUtils::LibBuilder' => '0.02'
-
-# run:
-#                  'autovivification' => 0,
-#                  'Class::Accessor' => 0,
-#                  'Data::Dump' => 0,
-#                  'Data::Compare' => 0,
-#                  'Data::Uniqid' => 0,
-#                  'DateTime::Format::Builder' => 0,
-#                  'DateTime::Calendar::Julian' => 0,
-#                  'File::Slurper'  => 0,
-#                  'IPC::Cmd' => 0,
-#                  'IPC::Run3' => 0,
-#                  'List::AllUtils' => 0,
-#                  'List::MoreUtils' => 0,
-#                  'List::MoreUtils::XS' => 0,
-#                  'Mozilla::CA' =>  '20160104',
-#                  'Regexp::Common' => 0,
-#                  'Log::Log4perl' => 0,
-#                  'Unicode::Collate' => '1.19',
-#                  'Unicode::Normalize' => '1.25',
-#                  'Unicode::LineBreak' => '2016.003',
-#                  'Unicode::GCString' => 0,
-#                  'Encode::EUCJPASCII' => 0,
-#                  'Encode::JIS2K' => 0,
-#                  'Encode::HanExtra' => 0,
-#                  'PerlIO::utf8_strict' => 0,
-#                  'XML::LibXML' => 1.70,
-#                  'XML::LibXML::Simple' => 0,
-#                  'XML::LibXSLT' => 0,
-#                  'XML::Writer' => 0,
-#                  'Sort::Key' => 0,
-#                  'Text::CSV' => 0,
-#                  'Text::CSV_XS' => 0,
-#                  'Text::Roman' => 0,
-#                  'URI' => 0,
-#                  'Text::BibTeX' => '0.76',
-#                  'LWP::Simple' => 0,
-#                  'LWP::Protocol::https' => 0,
-#                  'Business::ISBN' => 0,
-#                  'Business::ISSN' => 0,
-#                  'Business::ISMN' => 0,
-#                  'Lingua::Translit' => '0.27',
-
-# current
-# =======
-# Same except File::Slurp instead of File::Slurper, no PerlIO::utf8_strict.
