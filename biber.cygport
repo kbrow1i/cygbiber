@@ -38,7 +38,6 @@ perl-Mozilla-CA
 perl-Regexp-Common
 perl-Log-Log4perl
 perl-Unicode-Collate
-perl-Unicode-Normalize
 perl-Unicode-LineBreak
 perl-Encode-EUCJPASCII
 perl-Encode-JIS2K
