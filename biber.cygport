@@ -1,5 +1,5 @@
 NAME="biber"
-VERSION=2.10
+VERSION=2.11
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
