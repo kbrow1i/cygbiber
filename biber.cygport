@@ -1,5 +1,5 @@
 NAME="biber"
-VERSION=2.11
+VERSION=2.12
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="BibTeX replacement for users of BibLaTeX"
@@ -23,9 +23,9 @@ perl-Config-AutoConf
 perl-ExtUtils-LibBuilder
 perl-autovivification
 perl-Class-Accessor
+perl-Data-Dump
 perl-Data-Compare
 perl-Data-Uniqid
-perl-Date-Simple
 perl-DateTime-Format-Builder
 perl-DateTime-Calendar-Julian
 perl-File-Slurper
@@ -38,6 +38,7 @@ perl-Mozilla-CA
 perl-Regexp-Common
 perl-Log-Log4perl
 perl-Unicode-Collate
+perl-Unicode-Normalize
 perl-Unicode-LineBreak
 perl-Encode-EUCJPASCII
 perl-Encode-JIS2K

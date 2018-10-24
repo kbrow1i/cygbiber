@@ -1,13 +1,6 @@
-From cygwin-announce-biber-2.11-1 Sat Apr 28 15:23:00 2018
-From: Ken Brown <kbrown@cornell.edu>
-To: cygwin-announce@cygwin.com
-Date: Sat, 28 Apr 2018 15:23:00 -0400
-Message-Id: <20180428152300.10900-1-kbrown@cornell.edu>
-Subject: biber 2.11-1
-
 The following package has been uploaded to the Cygwin distribution:
 
-* biber-2.11-1
+* biber-2.12-1
 
 Biber is a BibTeX replacement for users of BibLaTeX.  Biber supports
 full UTF-8, can (re-)encode input and output, supports highly
@@ -15,7 +8,7 @@ configurable sorting, dynamic bibliography sets, and many other
 features.
 
 This is an update to the latest upstream release.  It is designed to
-work with biblatex-3.11.  The latter is contained in
+work with biblatex-3.12.  The latter is contained in
 texlive-collection-bibtexextra, which has just been updated also.
 
 Ken Brown
