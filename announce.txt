@@ -1,3 +1,5 @@
+Subject: biber 2.12-1
+
 The following package has been uploaded to the Cygwin distribution:
 
 * biber-2.12-1
